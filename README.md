@@ -29,7 +29,7 @@ cloud-linux-learning-journey/
 ├── README.md                        ← You are here
 ├── linux/
 │   ├── day-01-basics.md             ← Core commands, users, file ops
-│   └── assets/                      ← Screenshots, diagrams (coming soon)
+│   └── assets/                      ← Screenshots, diagrams 
 ├── cloud/                           ← AWS & cloud concepts (coming soon)
 └── projects/                        ← Hands-on mini projects (coming soon)
 ```
