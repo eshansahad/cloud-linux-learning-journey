@@ -14,9 +14,10 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ## 📅 Progress Log
 
-| Day    | Date         | Topic        | Notes                              |
-|--------|--------------|--------------|------------------------------------|
-| Day 01 | May 14, 2026 | Linux Basics | [View →](./linux/day-01-basics.md) |
+| Day    | Date         | Topic                                    | Notes                                           |
+|--------|--------------|------------------------------------------|-------------------------------------------------|
+| Day 01 | May 14, 2026 | Linux Basics                             | [View →](./linux/day-01-basics.md)              |
+| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection | [View →](./linux/day-02-file-management.md)     |
 
 > More sessions will be added as I progress.
 
@@ -26,12 +27,13 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ```
 cloud-linux-learning-journey/
-├── README.md                        ← You are here
+├── README.md                            ← You are here
 ├── linux/
-│   ├── day-01-basics.md             ← Core commands, users, file ops
-│   └── assets/                      ← Screenshots, diagrams 
-├── cloud/                           ← AWS & cloud concepts (coming soon)
-└── projects/                        ← Hands-on mini projects (coming soon)
+│   ├── day-01-basics.md                 ← Core commands, users, file ops
+│   ├── day-02-file-management.md        ← cp, mv, rm, links, I/O, grep, pipes
+│   └── assets/                          ← Screenshots, diagrams (coming soon)
+├── cloud/                               ← AWS & cloud concepts (coming soon)
+└── projects/                            ← Hands-on mini projects (coming soon)
 ```
 
 ---
@@ -50,6 +52,7 @@ cloud-linux-learning-journey/
 ## 🎯 Learning Roadmap
 
 - [x] Linux Basics — commands, users, file operations
+- [x] File Management — cp, mv, rm, hard/soft links, I/O redirection, grep, pipes
 - [ ] File Permissions — `chmod`, `chown`, `umask`
 - [ ] Process Management — `ps`, `top`, `kill`
 - [ ] Networking — `ifconfig`, `ping`, `curl`, `netstat`
