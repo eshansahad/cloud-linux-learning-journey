@@ -14,10 +14,11 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ## 📅 Progress Log
 
-| Day    | Date         | Topic                                    | Notes                                           |
-|--------|--------------|------------------------------------------|-------------------------------------------------|
-| Day 01 | May 14, 2026 | Linux Basics                             | [View →](./linux/day-01-basics.md)              |
-| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection | [View →](./linux/day-02-file-management.md)     |
+| Day    | Date         | Topic                                       | Notes                                                |
+|--------|--------------|---------------------------------------------|------------------------------------------------------|
+| Day 01 | May 14, 2026 | Linux Basics                                | [View →](./linux/day-01-basics.md)                   |
+| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection    | [View →](./linux/day-02-file-management.md)          |
+| Day 03 | May 18, 2026 | User Management, Groups & SSH               | [View →](./linux/day-03-users-groups-ssh.md)         |
 
 > More sessions will be added as I progress.
 
@@ -31,7 +32,12 @@ cloud-linux-learning-journey/
 ├── linux/
 │   ├── day-01-basics.md                 ← Core commands, users, file ops
 │   ├── day-02-file-management.md        ← cp, mv, rm, links, I/O, grep, pipes
+<<<<<<< HEAD
 │   └── assets/                          ← Screenshots, diagrams etc
+=======
+│   ├── day-03-users-groups-ssh.md       ← useradd, groups, sudo, SSH keygen
+│   └── assets/                          ← Screenshots from lab sessions
+>>>>>>> 3fa8e72 (Day 03: User management, groups, sudo, SSH key authentication)
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
 ```
@@ -53,7 +59,7 @@ cloud-linux-learning-journey/
 
 - [x] Linux Basics — commands, users, file operations
 - [x] File Management — cp, mv, rm, hard/soft links, I/O redirection, grep, pipes
-- [ ] File Permissions — `chmod`, `chown`, `umask`
+- [x] User & Group Management — useradd, passwd, sudo, SSH key authentication
 - [ ] Process Management — `ps`, `top`, `kill`
 - [ ] Networking — `ifconfig`, `ping`, `curl`, `netstat`
 - [ ] Package Management — `yum`, `dnf`
