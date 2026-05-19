@@ -14,11 +14,12 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ## 📅 Progress Log
 
-| Day    | Date         | Topic                                       | Notes                                                |
-|--------|--------------|---------------------------------------------|------------------------------------------------------|
-| Day 01 | May 14, 2026 | Linux Basics                                | [View →](./linux/day-01-basics.md)                   |
-| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection    | [View →](./linux/day-02-file-management.md)          |
-| Day 03 | May 18, 2026 | User Management, Groups & SSH               | [View →](./linux/day-03-users-groups-ssh.md)         |
+| Day    | Date         | Topic                                       | Notes                                                    |
+|--------|--------------|---------------------------------------------|----------------------------------------------------------|
+| Day 01 | May 14, 2026 | Linux Basics                                | [View →](./linux/day-01-basics.md)                       |
+| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection    | [View →](./linux/day-02-file-management.md)              |
+| Day 03 | May 18, 2026 | User Management, Groups & SSH               | [View →](./linux/day-03-users-groups-ssh.md)             |
+| Day 04 | May 19, 2026 | SSH Deep Dive & File Permissions            | [View →](./linux/day-04-ssh-permissions.md)              |
 
 > More sessions will be added as I progress.
 
@@ -32,12 +33,9 @@ cloud-linux-learning-journey/
 ├── linux/
 │   ├── day-01-basics.md                 ← Core commands, users, file ops
 │   ├── day-02-file-management.md        ← cp, mv, rm, links, I/O, grep, pipes
-<<<<<<< HEAD
-│   └── assets/                          ← Screenshots, diagrams etc
-=======
 │   ├── day-03-users-groups-ssh.md       ← useradd, groups, sudo, SSH keygen
+│   ├── day-04-ssh-permissions.md        ← SSH deep dive, chmod, chown
 │   └── assets/                          ← Screenshots from lab sessions
->>>>>>> 3fa8e72 (Day 03: User management, groups, sudo, SSH key authentication)
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
 ```
@@ -60,7 +58,9 @@ cloud-linux-learning-journey/
 - [x] Linux Basics — commands, users, file operations
 - [x] File Management — cp, mv, rm, hard/soft links, I/O redirection, grep, pipes
 - [x] User & Group Management — useradd, passwd, sudo, SSH key authentication
-- [ ] Process Management — `ps`, `top`, `kill`
+- [x] SSH Deep Dive & File Permissions — sshd_config, root login, chmod, chown
+- [ ] Special Permissions — setuid, setgid, sticky bit, ACL
+- [ ] Process Management — `ps`, `top`, `kill`, `systemctl`
 - [ ] Networking — `ifconfig`, `ping`, `curl`, `netstat`
 - [ ] Package Management — `yum`, `dnf`
 - [ ] Shell Scripting — `.sh` files, variables, loops
