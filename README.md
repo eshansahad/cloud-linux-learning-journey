@@ -4,7 +4,7 @@
 
 ---
 
-## 🧭 About This Repo
+##  About This Repo
 
 This repository is my personal learning log as I work through Linux fundamentals and cloud technologies from scratch — on a real AWS EC2 server running Red Hat Linux.
 
@@ -12,7 +12,7 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ---
 
-## 📅 Progress Log
+##  Progress Log
 
 | Day    | Date         | Topic                                       | Notes                                                    |
 |--------|--------------|---------------------------------------------|----------------------------------------------------------|
@@ -20,12 +20,13 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 02 | May 15, 2026 | File Management, Links & I/O Redirection    | [View →](./linux/day-02-file-management.md)              |
 | Day 03 | May 18, 2026 | User Management, Groups & SSH               | [View →](./linux/day-03-users-groups-ssh.md)             |
 | Day 04 | May 19, 2026 | SSH Deep Dive & File Permissions            | [View →](./linux/day-04-ssh-permissions.md)              |
+| Day 05 | May 20, 2026 | Special Permissions, umask & Apache Server  | [View →](./linux/day-05-permissions-apache.md)           |
 
 > More sessions will be added as I progress.
 
 ---
 
-## 🗂️ Repo Structure
+##  Repo Structure
 
 ```
 cloud-linux-learning-journey/
@@ -35,6 +36,7 @@ cloud-linux-learning-journey/
 │   ├── day-02-file-management.md        ← cp, mv, rm, links, I/O, grep, pipes
 │   ├── day-03-users-groups-ssh.md       ← useradd, groups, sudo, SSH keygen
 │   ├── day-04-ssh-permissions.md        ← SSH deep dive, chmod, chown
+│   ├── day-05-permissions-apache.md     ← SUID, SGID, sticky bit, umask, Apache
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
@@ -42,7 +44,7 @@ cloud-linux-learning-journey/
 
 ---
 
-## 🛠️ Lab Environment
+##  Lab Environment
 
 | Component      | Details              |
 |----------------|----------------------|
@@ -53,13 +55,14 @@ cloud-linux-learning-journey/
 
 ---
 
-## 🎯 Learning Roadmap
+##  Learning Roadmap
 
 - [x] Linux Basics — commands, users, file operations
 - [x] File Management — cp, mv, rm, hard/soft links, I/O redirection, grep, pipes
 - [x] User & Group Management — useradd, passwd, sudo, SSH key authentication
 - [x] SSH Deep Dive & File Permissions — sshd_config, root login, chmod, chown
-- [ ] Special Permissions — setuid, setgid, sticky bit, ACL
+- [x] Special Permissions & Apache — SUID, SGID, sticky bit, umask, httpd
+- [ ] ACL — Access Control Lists (`getfacl`, `setfacl`)
 - [ ] Process Management — `ps`, `top`, `kill`, `systemctl`
 - [ ] Networking — `ifconfig`, `ping`, `curl`, `netstat`
 - [ ] Package Management — `yum`, `dnf`
