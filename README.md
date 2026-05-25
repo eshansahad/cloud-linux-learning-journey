@@ -22,6 +22,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 04 | May 19, 2026 | SSH Deep Dive & File Permissions              | [View →](./linux/day-04-ssh-permissions.md)              |
 | Day 05 | May 20, 2026 | Special Permissions, umask & Apache Server    | [View →](./linux/day-05-permissions-apache.md)           |
 | Day 06 | May 21, 2026 | WordPress on LAMP Stack (Full Deployment)     | [View →](./linux/day-06-wordpress-lamp.md)               |
+| Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management  | [View →](./linux/day-07-scheduling-disk.md)              |
 
 > More sessions will be added as I progress.
 
@@ -39,6 +40,7 @@ cloud-linux-learning-journey/
 │   ├── day-04-ssh-permissions.md        ← SSH deep dive, chmod, chown
 │   ├── day-05-permissions-apache.md     ← SUID, SGID, sticky bit, umask, Apache
 │   ├── day-06-wordpress-lamp.md         ← Full LAMP stack + WordPress deployment
+│   ├── day-07-scheduling-disk.md        ← at, cron, df, du, lsblk, partitioning
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
@@ -65,10 +67,10 @@ cloud-linux-learning-journey/
 - [x] SSH Deep Dive & File Permissions — sshd_config, root login, chmod, chown
 - [x] Special Permissions & Apache — SUID, SGID, sticky bit, umask, httpd
 - [x] WordPress LAMP Deployment — Apache, PHP 8.3, MariaDB, WordPress, SELinux, backups
-- [ ] ACL — Access Control Lists (`getfacl`, `setfacl`)
+- [x] Job Scheduling & Disk Management — at, cron, df, du, lsblk, fdisk, fstab
+- [ ] LVM — Logical Volume Manager
 - [ ] Process Management — `ps`, `top`, `kill`, `journalctl`
 - [ ] Networking — `ip`, `ss`, `ping`, `curl`, `netstat`
-- [ ] Package Management — `yum`, `dnf`
 - [ ] Shell Scripting — `.sh` files, variables, loops
 - [ ] AWS Core Services — EC2, S3, IAM, VPC
 - [ ] Cloud Architecture — real-world project
