@@ -14,15 +14,16 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ##  Progress Log
 
-| Day    | Date         | Topic                                         | Notes                                                    |
-|--------|--------------|-----------------------------------------------|----------------------------------------------------------|
-| Day 01 | May 14, 2026 | Linux Basics                                  | [View →](./linux/day-01-basics.md)                       |
-| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection      | [View →](./linux/day-02-file-management.md)              |
-| Day 03 | May 18, 2026 | User Management, Groups & SSH                 | [View →](./linux/day-03-users-groups-ssh.md)             |
-| Day 04 | May 19, 2026 | SSH Deep Dive & File Permissions              | [View →](./linux/day-04-ssh-permissions.md)              |
-| Day 05 | May 20, 2026 | Special Permissions, umask & Apache Server    | [View →](./linux/day-05-permissions-apache.md)           |
-| Day 06 | May 21, 2026 | WordPress on LAMP Stack (Full Deployment)     | [View →](./linux/day-06-wordpress-lamp.md)               |
-| Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management  | [View →](./linux/day-07-scheduling-disk.md)              |
+| Day    | Date         | Topic                                              | Notes                                                    |
+|--------|--------------|----------------------------------------------------|----------------------------------------------------------|
+| Day 01 | May 14, 2026 | Linux Basics                                       | [View →](./linux/day-01-basics.md)                       |
+| Day 02 | May 15, 2026 | File Management, Links & I/O Redirection           | [View →](./linux/day-02-file-management.md)              |
+| Day 03 | May 18, 2026 | User Management, Groups & SSH                      | [View →](./linux/day-03-users-groups-ssh.md)             |
+| Day 04 | May 19, 2026 | SSH Deep Dive & File Permissions                   | [View →](./linux/day-04-ssh-permissions.md)              |
+| Day 05 | May 20, 2026 | Special Permissions, umask & Apache Server         | [View →](./linux/day-05-permissions-apache.md)           |
+| Day 06 | May 21, 2026 | WordPress on LAMP Stack (Full Deployment)          | [View →](./linux/day-06-wordpress-lamp.md)               |
+| Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management       | [View →](./linux/day-07-scheduling-disk.md)              |
+| Day 08 | May 26, 2026 | Storage Partitioning & Process Management          | [View →](./linux/day-08-storage-processes.md)            |
 
 > More sessions will be added as I progress.
 
@@ -41,6 +42,7 @@ cloud-linux-learning-journey/
 │   ├── day-05-permissions-apache.md     ← SUID, SGID, sticky bit, umask, Apache
 │   ├── day-06-wordpress-lamp.md         ← Full LAMP stack + WordPress deployment
 │   ├── day-07-scheduling-disk.md        ← at, cron, df, du, lsblk, partitioning
+│   ├── day-08-storage-processes.md      ← fdisk, fstab, ps, kill, top, nice, jobs
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
@@ -68,10 +70,10 @@ cloud-linux-learning-journey/
 - [x] Special Permissions & Apache — SUID, SGID, sticky bit, umask, httpd
 - [x] WordPress LAMP Deployment — Apache, PHP 8.3, MariaDB, WordPress, SELinux, backups
 - [x] Job Scheduling & Disk Management — at, cron, df, du, lsblk, fdisk, fstab
+- [x] Storage Partitioning & Process Management — fdisk, fstab, ps, kill signals, top, nice
 - [ ] LVM — Logical Volume Manager
-- [ ] Process Management — `ps`, `top`, `kill`, `journalctl`
-- [ ] Networking — `ip`, `ss`, `ping`, `curl`, `netstat`
-- [ ] Shell Scripting — `.sh` files, variables, loops
+- [ ] Networking — `ip`, `ss`, `ping`, `curl`, `nmcli`
+- [ ] Shell Scripting — `.sh` files, variables, loops, conditionals
 - [ ] AWS Core Services — EC2, S3, IAM, VPC
 - [ ] Cloud Architecture — real-world project
 
