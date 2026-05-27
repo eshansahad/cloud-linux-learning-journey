@@ -24,6 +24,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 06 | May 21, 2026 | WordPress on LAMP Stack (Full Deployment)          | [View →](./linux/day-06-wordpress-lamp.md)               |
 | Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management       | [View →](./linux/day-07-scheduling-disk.md)              |
 | Day 08 | May 26, 2026 | Storage Partitioning & Process Management          | [View →](./linux/day-08-storage-processes.md)            |
+| Day 09 | May 27, 2026 | Linux Administration Lab — File Ops, Users, Permissions, Services, Apache, Bash & Cron | [View →](./linux/day-09-linux-admin-lab.md) |
 
 > More sessions will be added as I progress.
 
@@ -43,6 +44,7 @@ cloud-linux-learning-journey/
 │   ├── day-06-wordpress-lamp.md         ← Full LAMP stack + WordPress deployment
 │   ├── day-07-scheduling-disk.md        ← at, cron, df, du, lsblk, partitioning
 │   ├── day-08-storage-processes.md      ← fdisk, fstab, ps, kill, top, nice, jobs
+│   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/                               ← AWS & cloud concepts (coming soon)
 └── projects/                            ← Hands-on mini projects (coming soon)
@@ -71,6 +73,7 @@ cloud-linux-learning-journey/
 - [x] WordPress LAMP Deployment — Apache, PHP 8.3, MariaDB, WordPress, SELinux, backups
 - [x] Job Scheduling & Disk Management — at, cron, df, du, lsblk, fdisk, fstab
 - [x] Storage Partitioning & Process Management — fdisk, fstab, ps, kill signals, top, nice
+- [x] Linux Administration Lab — file ops, user/group mgmt, chmod, systemctl, Apache, bash scripting, cron
 - [ ] LVM — Logical Volume Manager
 - [ ] Networking — `ip`, `ss`, `ping`, `curl`, `nmcli`
 - [ ] Shell Scripting — `.sh` files, variables, loops, conditionals
