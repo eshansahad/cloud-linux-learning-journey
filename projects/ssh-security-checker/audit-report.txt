@@ -1,0 +1,11 @@
+==================================
+SSH SECURITY AUDIT REPORT
+Date: Tue Jun  2 09:29:08 UTC 2026
+==================================
+
+[PASS] SSH Service Running
+[PASS] Firewall Active
+
+==================================
+Security Score: 70 / 100
+==================================
