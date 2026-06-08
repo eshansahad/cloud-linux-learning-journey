@@ -25,6 +25,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management       | [View →](./linux/day-07-scheduling-disk.md)              |
 | Day 08 | May 26, 2026 | Storage Partitioning & Process Management          | [View →](./linux/day-08-storage-processes.md)            |
 | Day 09 | May 27, 2026 | Linux Administration Lab — File Ops, Users, Permissions, Services, Apache, Bash & Cron | [View →](./linux/day-09-linux-admin-lab.md) |
+| Day 10 | Jun 08, 2026 | Azure VMSS, Snapshots & Load Balancer Lab          | [View →](./cloud/day-10-azure-vmss-load-balancer.md)     |
 
 > More sessions will be added as I progress.
 
@@ -46,11 +47,38 @@ cloud-linux-learning-journey/
 │   ├── day-08-storage-processes.md      ← fdisk, fstab, ps, kill, top, nice, jobs
 │   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
-├── cloud/                               ← AWS & cloud concepts (coming soon)
-└── projects/                            ← Hands-on mini projects (coming soon)
+├── cloud/
+│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab                            
+|   └── assets/                          ← Screenshots from lab sessions
+└── projects/
+    └── ssh-security-checker/            ← SSH security auditing project
+    └── wordpress-lab-report/            ← Install and configure wordpress
 ```
 
 ---
+
+
+---
+
+## Projects
+
+### SSH Security Checker
+A hands-on Linux security project that audits SSH configurations and checks for common security weaknesses.
+
+**Features**
+- Verifies SSH service status
+- Reviews SSH configuration settings
+- Checks root login configuration
+- Audits password authentication settings
+- Helps identify security hardening opportunities
+
+**Skills Practiced**
+- Linux Administration
+- SSH Security
+- Bash Scripting
+- System Auditing
+- DevSecOps Fundamentals
+
 
 ##  Lab Environment
 
@@ -77,7 +105,10 @@ cloud-linux-learning-journey/
 - [ ] LVM — Logical Volume Manager
 - [ ] Networking — `ip`, `ss`, `ping`, `curl`, `nmcli`
 - [ ] Shell Scripting — `.sh` files, variables, loops, conditionals
+- [x] SSH Security Checker — Bash-based SSH security auditing project
 - [ ] AWS Core Services — EC2, S3, IAM, VPC
+- [x] Azure VMSS, Snapshots & Load Balancer Lab
+- [x] Azure Fundamentals — ARM, RBAC, IAM, Scopes, Microsoft Entra ID
 - [ ] Cloud Architecture — real-world project
 
 ---
