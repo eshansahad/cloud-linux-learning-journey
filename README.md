@@ -26,6 +26,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 08 | May 26, 2026 | Storage Partitioning & Process Management          | [View →](./linux/day-08-storage-processes.md)            |
 | Day 09 | May 27, 2026 | Linux Administration Lab — File Ops, Users, Permissions, Services, Apache, Bash & Cron | [View →](./linux/day-09-linux-admin-lab.md) |
 | Day 10 | Jun 08, 2026 | Azure VMSS, Snapshots & Load Balancer Lab          | [View →](./cloud/day-10-azure-vmss-load-balancer.md)     |
+| Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/day-11-vmss-autoscaling-lab.md)         |
 
 > More sessions will be added as I progress.
 
@@ -48,7 +49,8 @@ cloud-linux-learning-journey/
 │   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
-│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab                            
+│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab
+|    ├── day-10-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing                            
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -108,6 +110,9 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] SSH Security Checker — Bash-based SSH security auditing project
 - [ ] AWS Core Services — EC2, S3, IAM, VPC
 - [x] Azure VMSS, Snapshots & Load Balancer Lab
+- [x] Azure VM Scale Sets (VMSS) & Autoscaling
+- [x] Azure Monitoring & CPU-Based Scaling Rules
+- [x] Azure Load Testing with Stress Utility
 - [x] Azure Fundamentals — ARM, RBAC, IAM, Scopes, Microsoft Entra ID
 - [ ] Cloud Architecture — real-world project
 
