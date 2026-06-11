@@ -50,7 +50,7 @@ cloud-linux-learning-journey/
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
 │   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab
-|    ├── day-10-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing                            
+|   ├── day-10-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing                            
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
