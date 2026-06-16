@@ -27,6 +27,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 09 | May 27, 2026 | Linux Administration Lab — File Ops, Users, Permissions, Services, Apache, Bash & Cron | [View →](./linux/day-09-linux-admin-lab.md) |
 | Day 10 | Jun 08, 2026 | Azure VMSS, Snapshots & Load Balancer Lab          | [View →](./cloud/day-10-azure-vmss-load-balancer.md)     |
 | Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/day-11-vmss-autoscaling-lab.md)         |
+| Day 12 | Jun 16, 2026 | Azure Storage Services & File Share Lab            | [View →](./cloud/day-12-azure-storage-services.md)       |
 
 > More sessions will be added as I progress.
 
@@ -50,7 +51,12 @@ cloud-linux-learning-journey/
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
 │   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab
+<<<<<<< HEAD
 |   ├── day-10-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing                            
+=======
+|   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing       
+|   └── day-12-azure-storage-services.md ← Azure storage services and file share lab
+>>>>>>> dc641e7 (add day 12 Azure storage services and file share lab)
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -115,6 +121,11 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Azure Load Testing with Stress Utility
 - [x] Azure Fundamentals — ARM, RBAC, IAM, Scopes, Microsoft Entra ID
 - [ ] Cloud Architecture — real-world project
+### Azure Storage & Data Services
+- [x] Storage Accounts, Blobs & File Shares
+- [x] Storage Explorer
+- [x] Storage Migration Tools
+- [x] Azure Database Fundamentals
 
 ---
 
