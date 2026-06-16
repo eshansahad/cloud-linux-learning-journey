@@ -1,4 +1,4 @@
-# Day 11 — Azure Storage Services
+# Day 12 — Azure Storage Services
 
 **Date:** 16-06-2026  
 **Topic:** Azure Storage Services, Storage Explorer, Storage Migration & Azure Databases  
