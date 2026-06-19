@@ -29,6 +29,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/day-11-vmss-autoscaling-lab.md)         |
 | Day 12 | Jun 16, 2026 | Azure Storage Services & File Share Lab            | [View →](./cloud/day-12-azure-storage-services.md)       |
 | Day 13 | Jun 18, 2026 | Azure App Service, Function App & Logic Apps       | [View →](./cloud/day-13-app-service-function-logic-apps.md) |
+| Day 14 | Jun 19, 2026 | Azure Application Hosting Services                 | [View →](./cloud/day-14-azure-application-hosting-services.md) |
 
 > More sessions will be added as I progress.
 
@@ -56,6 +57,7 @@ cloud-linux-learning-journey/
 |   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing       
 |   └── day-12-azure-storage-services.md ← Azure storage services and file share lab
 │   ├── day-13-app-service-function-logic-apps.md ← Azure App Service, Function App & Logic Apps
+│   ├── day-14-azure-application-hosting-services.md
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -111,6 +113,39 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Linux Administration Lab — file ops, user/group mgmt, chmod, systemctl, Apache, bash scripting, cron
 - [ ] LVM — Logical Volume Manager
 - [ ] Networking — `ip`, `ss`, `ping`, `curl`, `nmcli`
+- [ ] Shell Scripting — `.sh` files, variables, loops, conditionals
+- [x] SSH Security Checker — Bash-based SSH security auditing project
+- [ ] AWS Core Services — EC2, S3, IAM, VPC
+- [x] Azure VMSS, Snapshots & Load Balancer Lab
+- [x] Azure VM Scale Sets (VMSS) & Autoscaling
+- [x] Azure Monitoring & CPU-Based Scaling Rules
+- [x] Azure Load Testing with Stress Utility
+- [x] Azure Fundamentals — ARM, RBAC, IAM, Scopes, Microsoft Entra ID
+- [ ] Cloud Architecture — real-world project
+### Azure Storage & Data Services
+- [x] Storage Accounts, Blobs & File Shares
+- [x] Storage Explorer
+- [x] Storage Migration Tools
+- [x] Azure Database Fundamentals
+### Azure Application Services
+- [x] Azure App Service
+- [x] Azure Function App
+- [x] Azure Logic Apps
+- [x] Serverless Computing Basics
+- [x] Workflow Automation with Azure Pipelines
+##  Learning Roadmap
+
+- [x] Linux Basics — commands, users, file operations
+- [x] File Management — cp, mv, rm, hard/soft links, I/O redirection, grep, pipes
+- [x] User & Group Management — useradd, passwd, sudo, SSH key authentication
+- [x] SSH Deep Dive & File Permissions — sshd_config, root login, chmod, chown
+- [x] Special Permissions & Apache — SUID, SGID, sticky bit, umask, httpd
+- [x] WordPress LAMP Deployment — Apache, PHP 8.3, MariaDB, WordPress, SELinux, backups
+- [x] Job Scheduling & Disk Management — at, cron, df, du, lsblk, fdisk, fstab
+- [x] Storage Partitioning & Process Management — fdisk, fstab, ps, kill signals, top, nice
+- [x] Linux Administration Lab — file ops, user/group mgmt, chmod, systemctl, Apache, bash scripting, cron
+- [ ] LVM — Logical Volume Manager
+- [x] Networking — `ip`, `ss`, `ping`, `curl`, `nmcli`
 - [ ] Shell Scripting — `.sh` files, variables, loops, conditionals
 - [x] SSH Security Checker — Bash-based SSH security auditing project
 - [ ] AWS Core Services — EC2, S3, IAM, VPC

@@ -195,3 +195,4 @@ Successfully learned:
 - Azure Logic Apps
 - Serverless Computing Concepts
 - Workflow Automation Basics
+.
