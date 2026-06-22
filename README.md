@@ -29,8 +29,8 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/day-11-vmss-autoscaling-lab.md)         |
 | Day 12 | Jun 16, 2026 | Azure Storage Services & File Share Lab            | [View →](./cloud/day-12-azure-storage-services.md)       |
 | Day 13 | Jun 18, 2026 | Azure App Service, Function App & Logic Apps       | [View →](./cloud/day-13-app-service-function-logic-apps.md) |
-| Day 14 | Jun 19, 2026 | Azure Application Hosting Services                 | [View →](./cloud/day-14–azure-application-hosting-services.md) |
-
+| Day 14 | Jun 19, 2026 | Azure Application Hosting Services                 | [View →](./cloud/day-14-azure-application-hosting-services.md) |
+| Day 15 | Jun 22, 2026 | Azure CLI Virtual Machine Administration Lab       | [View →](./cloud/day-15-azure-cli-vm-lab.md)             |
 
 > More sessions will be added as I progress.
 
@@ -58,7 +58,8 @@ cloud-linux-learning-journey/
 |   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing       
 |   └── day-12-azure-storage-services.md ← Azure storage services and file share lab
 │   ├── day-13-app-service-function-logic-apps.md ← Azure App Service, Function App & Logic Apps
-│   ├── day-14-azure-application-hosting-services.md
+│   ├── day-14-azure-application-hosting-services.md ← Azure Application Hosting Services
+|   ├── day-15-azure-cli-vm-lab.md       ← Azure CLI VM creation, networking, NSG, SSH access
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -167,6 +168,11 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Azure Logic Apps
 - [x] Serverless Computing Basics
 - [x] Workflow Automation with Azure Pipelines
+- [x] Azure CLI Fundamentals
+- [x] Azure CLI Virtual Machine Deployment
+- [x] Virtual Networks & Subnets using Azure CLI
+- [x] Network Security Groups (NSG)
+- [x] Linux VM Administration via SSH
 
 
 ---
