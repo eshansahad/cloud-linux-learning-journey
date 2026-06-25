@@ -33,6 +33,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 15 | Jun 22, 2026 | Azure CLI Virtual Machine Administration Lab       | [View →](./cloud/day-15-azure-cli-vm-lab.md)             |
 | Day 16 | Jun 23, 2026 | Azure Container Registry (ACR) & Azure Container Instances (ACI) | [View →](./cloud/day-16-azure-containerization-lab.md) |
 | Day 17 | Jun 24, 2026 | Azure Container Services & Application Hosting Services | [View →](./cloud/day-17-azure-container-services-hosting.md) |
+| Day 18 | Jun 25, 2026 | Azure Security Services                            | [View →](./cloud/day-18-azure-security-services.md)      |
 
 > More sessions will be added as I progress.
 
@@ -64,6 +65,7 @@ cloud-linux-learning-journey/
 |   ├── day-15-azure-cli-vm-lab.md       ← Azure CLI VM creation, networking, NSG, SSH access
 │   ├── day-16-azure-containerization-lab.md ← Azure Container Registry, Docker Images & Azure Container Instances
 │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
+│   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -195,6 +197,19 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Azure Container Apps
 - [x] Azure Static Web Apps
 - [x] Hosting Service Comparison
+### Azure Security Services
+- [x] Microsoft Entra ID
+- [x] Microsoft Defender for Cloud
+- [x] Microsoft Sentinel
+- [x] Azure Key Vault
+- [x] Azure Firewall
+- [x] Network Security Groups (NSG)
+- [x] Azure DDoS Protection
+- [x] Azure Web Application Firewall (WAF)
+- [x] Azure Bastion
+- [x] Azure Policy
+- [x] Azure Monitor
+- [x] Microsoft Purview
 
 ---
 
