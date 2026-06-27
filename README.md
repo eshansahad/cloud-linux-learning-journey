@@ -34,6 +34,7 @@ Every session is documented as a structured notes file under the relevant topic 
 | Day 16 | Jun 23, 2026 | Azure Container Registry (ACR) & Azure Container Instances (ACI) | [View →](./cloud/day-16-azure-containerization-lab.md) |
 | Day 17 | Jun 24, 2026 | Azure Container Services & Application Hosting Services | [View →](./cloud/day-17-azure-container-services-hosting.md) |
 | Day 18 | Jun 25, 2026 | Azure Security Services                            | [View →](./cloud/day-18-azure-security-services.md)      |
+| Day 19 | Jun 26, 2026 | Azure Database Services (SQL, MySQL & PostgreSQL)  | [View →](./cloud/day-19-azure-database-services.md)      |
 
 > More sessions will be added as I progress.
 
@@ -66,6 +67,7 @@ cloud-linux-learning-journey/
 │   ├── day-16-azure-containerization-lab.md ← Azure Container Registry, Docker Images & Azure Container Instances
 │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
 │   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
+│   ├── day-19-azure-database-services.md ← Azure SQL, MySQL & PostgreSQL Administration Labs
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
@@ -210,6 +212,17 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Azure Policy
 - [x] Azure Monitor
 - [x] Microsoft Purview
+### Azure Database Services
+- [x] Azure SQL Database
+- [x] Azure SQL Query Editor
+- [x] Azure Database for MySQL
+- [x] Azure Database for PostgreSQL
+- [x] Flexible Server
+- [x] Firewall Rules
+- [x] Azure Cloud Shell
+- [x] SQL Table Creation
+- [x] Data Insertion & Retrieval
+- [x] Database Administration
 
 ---
 
