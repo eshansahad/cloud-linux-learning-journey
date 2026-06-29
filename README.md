@@ -100,6 +100,15 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 * System Auditing
 * DevSecOps Fundamentals
 
+##  Lab Environment
+
+| Component      | Details              |
+|----------------|----------------------|
+| Cloud Provider | AWS EC2              |
+| OS             | Red Hat Linux        |
+| Access Method  | SSH from Windows CMD |
+| Shell          | Bash                 |
+
 ---
 
 ###  Secure DevSecOps Pipeline
@@ -131,16 +140,6 @@ https://github.com/eshansahad/secure-devsecops-pipeline
 * Container Security
 * Secure Software Development
 * Shift-Left Security
-
-
-##  Lab Environment
-
-| Component      | Details              |
-|----------------|----------------------|
-| Cloud Provider | AWS EC2              |
-| OS             | Red Hat Linux        |
-| Access Method  | SSH from Windows CMD |
-| Shell          | Bash                 |
 
 ---
 
