@@ -1,7 +1,6 @@
 #  Cloud & Linux Learning Journey
 
-> **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice. This repository contains my daily learning notes, hands-on labs, and milestone projects as I progress through Linux, Cloud Computing, Azure, Docker, and DevSecOps.
-
+> **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 ---
 
 ##  About This Repo
