@@ -1,14 +1,12 @@
 #  Cloud & Linux Learning Journey
 
-> **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, and hands-on practice.
+> **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice. This repository contains my daily learning notes, hands-on labs, and milestone projects as I progress through Linux, Cloud Computing, Azure, Docker, and DevSecOps.
 
 ---
 
 ##  About This Repo
 
-This repository is my personal learning log as I work through Linux fundamentals and cloud technologies from scratch — on a real AWS EC2 server running Red Hat Linux.
-
-Every session is documented as a structured notes file under the relevant topic folder. No polish faking — just honest, consistent progress.
+This repository documents my hands-on learning journey through Linux administration, cloud computing, Azure services, containerization, and DevSecOps. Every topic is accompanied by practical labs, notes, and real-world projects, helping me build a strong foundation in modern infrastructure, automation, and secure software delivery.
 
 ---
 
@@ -40,6 +38,15 @@ Every session is documented as a structured notes file under the relevant topic 
 
 ---
 
+## 🚀 Projects & Milestones
+
+| Date | Project | Description | Repository |
+|------|---------|-------------|------------|
+| May 2026 | SSH Security Checker | Bash-based SSH security auditing tool for Linux hardening. | [View →](./projects/ssh-security-checker/) |
+| Jun 2026 | WordPress LAMP Deployment | Complete WordPress deployment on a Linux LAMP stack. | [View →](./projects/wordpress-lab-report/) |
+| Jun 2026 | Secure DevSecOps Pipeline | Production-style DevSecOps pipeline using Docker, GitHub Actions, Bandit, Trivy, Gitleaks, pip-audit, Ruff, and GHCR. | [GitHub →](https://github.com/eshansahad/secure-devsecops-pipeline) |
+
+
 ##  Repo Structure
 
 ```
@@ -57,10 +64,9 @@ cloud-linux-learning-journey/
 │   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
-│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab
-|   ├── day-10-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing                            
-|   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing       
-|   └── day-12-azure-storage-services.md ← Azure storage services and file share lab
+│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab                        
+|   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing
+│   ├── day-12-azure-storage-services.md ← Azure storage services and file share lab
 │   ├── day-13-app-service-function-logic-apps.md ← Azure App Service, Function App & Logic Apps
 │   ├── day-14-azure-application-hosting-services.md ← Azure Application Hosting Services
 |   ├── day-15-azure-cli-vm-lab.md       ← Azure CLI VM creation, networking, NSG, SSH access
@@ -68,10 +74,12 @@ cloud-linux-learning-journey/
 │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
 │   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
 │   ├── day-19-azure-database-services.md ← Azure SQL, MySQL & PostgreSQL Administration Labs
-|   └── assets/                          ← Screenshots from lab sessions
+|   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     └── ssh-security-checker/            ← SSH security auditing project
     └── wordpress-lab-report/            ← Install and configure wordpress
+    └── secure-devsecops-pipeline/       ← DevSecOps project overview & external repository link
+    └── External GitHub Repository
 ```
 
 ---
@@ -79,24 +87,51 @@ cloud-linux-learning-journey/
 
 ---
 
-## Projects
+##  Projects
 
-### SSH Security Checker
+###  SSH Security Checker
+
 A hands-on Linux security project that audits SSH configurations and checks for common security weaknesses.
 
-**Features**
-- Verifies SSH service status
-- Reviews SSH configuration settings
-- Checks root login configuration
-- Audits password authentication settings
-- Helps identify security hardening opportunities
+**Key Skills**
+
+* Linux Administration
+* SSH Hardening
+* Bash Scripting
+* System Auditing
+* DevSecOps Fundamentals
+
+---
+
+###  Secure DevSecOps Pipeline
+
+An end-to-end DevSecOps project built with Python, Flask, Docker, and GitHub Actions. The project demonstrates a secure CI/CD workflow integrating automated testing, security scanning, containerization, and container publishing.
+
+**Repository**
+
+https://github.com/eshansahad/secure-devsecops-pipeline
+
+**Highlights**
+
+* Multi-job GitHub Actions workflow
+* Docker containerization
+* Ruff code quality analysis
+* Pytest automated testing
+* Bandit SAST scanning
+* pip-audit dependency scanning
+* Gitleaks secret detection
+* Trivy container security scanning
+* GitHub Container Registry (GHCR) publishing
 
 **Skills Practiced**
-- Linux Administration
-- SSH Security
-- Bash Scripting
-- System Auditing
-- DevSecOps Fundamentals
+
+* DevSecOps
+* CI/CD
+* Docker
+* GitHub Actions
+* Container Security
+* Secure Software Development
+* Shift-Left Security
 
 
 ##  Lab Environment
@@ -132,6 +167,22 @@ A hands-on Linux security project that audits SSH configurations and checks for 
 - [x] Azure Load Testing with Stress Utility
 - [x] Azure Fundamentals — ARM, RBAC, IAM, Scopes, Microsoft Entra ID
 - [ ] Cloud Architecture — real-world project
+* [x] Python Flask Application
+* [x] Docker Containerization
+* [x] Docker Compose
+* [x] GitHub Actions CI/CD
+* [x] Ruff Code Quality Analysis
+* [x] Pytest Unit Testing
+* [x] Bandit Static Application Security Testing (SAST)
+* [x] pip-audit Dependency Scanning
+* [x] Gitleaks Secret Detection
+* [x] Trivy Container Vulnerability Scanning
+* [x] GitHub Container Registry (GHCR)
+* [x] Release Management (v1.0.0)
+* [ ] Azure Container Apps Deployment
+* [ ] Kubernetes (AKS)
+* [ ] Terraform Infrastructure as Code
+
 ### Azure Storage & Data Services
 - [x] Storage Accounts, Blobs & File Shares
 - [x] Storage Explorer
