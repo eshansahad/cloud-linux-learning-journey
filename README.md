@@ -33,7 +33,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 18 | Jun 25, 2026 | Azure Security Services                            | [View →](./cloud/day-18-azure-security-services.md)      |
 | Day 19 | Jun 26, 2026 | Azure Database Services (SQL, MySQL & PostgreSQL)  | [View →](./cloud/day-19-azure-database-services.md)      |
 | Day 20 | Jun 30, 2026 | DevSecOps CI/CD Project – Azure Edition            | [View Project →](https://github.com/eshansahad/secure-devsecops-pipeline) |
-
+| Day 21 | Jun 30, 2026 | AWS Billing, Budgets & IAM Fundamentals            | [View →](./cloud/day-21-aws-budgets-iam.md)              |
 > More sessions will be added as I progress.
 
 ---
@@ -73,6 +73,7 @@ cloud-linux-learning-journey/
 │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
 │   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
 │   ├── day-19-azure-database-services.md ← Azure SQL, MySQL & PostgreSQL Administration Labs
+│   ├── day-21-aws-budgets-iam.md                      ← AWS Billing, Budgets, IAM Users, 
 |   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
@@ -303,9 +304,27 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
+## AWS Cloud Fundamentals
+
+- [x] AWS Account setup
+- [x] AWS Billing & Cost Management
+- [x] AWS Budgets
+- [x] Budget Alerts & Notifications
+- [x] IAM Users
+- [x] IAM Roles
+- [x] IAM Policies
+- [x] STS AssumeRole
+- [x] Principle of Least Privilege
+- [ ] Amazon EC2
+- [ ] Amazon S3
+- [ ] Amazon VPC
+- [ ] AWS CLI
+- [ ] Terraform
+
+---
+
 ##  Other Cloud Platforms
 
-- [ ] AWS core services — EC2, S3, IAM, VPC
 - [ ] Terraform — Infrastructure as Code
 
 ---
