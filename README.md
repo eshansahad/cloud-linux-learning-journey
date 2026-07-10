@@ -34,6 +34,12 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 19 | Jun 26, 2026 | Azure Database Services (SQL, MySQL & PostgreSQL)  | [View →](./cloud/day-19-azure-database-services.md)      |
 | Day 20 | Jun 30, 2026 | DevSecOps CI/CD Project – Azure Edition            | [View Project →](https://github.com/eshansahad/secure-devsecops-pipeline) |
 | Day 21 | Jun 30, 2026 | AWS Billing, Budgets & IAM Fundamentals            | [View →](./cloud/day-21-aws-budgets-iam.md)              |
+| Day 22 | Jul 02, 2026 | AWS EC2 Administration & EBS Snapshots             | [View →](./cloud/day-22-aws-ec2-ebs.md)                  |
+| Day 23 | Jul 03, 2026 | AWS Elastic IP, Application Load Balancer & Auto Scaling | [View →](./cloud/day-23-aws-networking-load-balancing.md) |
+| Day 24 | Jul 06, 2026 | AWS Elastic File System (EFS) Administration       | [View →](./cloud/day-24-aws-efs.md)                      |
+| Day 25 | Jul 07, 2026 | IIS Web Server Hosting on Windows Server           | [View →](./cloud/day-25-iis-web-server.md)               |
+| Day 26 | Jul 08, 2026 | AWS RDS Administration (MariaDB & Microsoft SQL Server) | [View →](./cloud/day-26-aws-rds.md)                 |
+| Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/day-27-aws-documentdb-apache.md)      |
 > More sessions will be added as I progress.
 
 ---
@@ -74,6 +80,12 @@ cloud-linux-learning-journey/
 │   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
 │   ├── day-19-azure-database-services.md ← Azure SQL, MySQL & PostgreSQL Administration Labs
 │   ├── day-21-aws-budgets-iam.md                      ← AWS Billing, Budgets, IAM Users, 
+│   ├── day-22-aws-ec2-ebs.md                      ← EC2 Windows/Linux Administration & EBS Snapshots
+│   ├── day-23-aws-networking-load-balancing.md    ← Elastic IP, Auto Scaling Groups & Application Load Balancer
+│   ├── day-24-aws-efs.md                          ← Elastic File System (EFS) Administration
+│   ├── day-25-iis-web-server.md                   ← IIS Web Server Hosting on Windows Server
+│   ├── day-26-aws-rds.md                          ← Amazon RDS (MariaDB & Microsoft SQL Server)
+│   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
 |   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
@@ -303,8 +315,9 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Continuous deployment using GitHub Actions
 
 ---
-
 ## AWS Cloud Fundamentals
+
+### Identity & Governance
 
 - [x] AWS Account setup
 - [x] AWS Billing & Cost Management
@@ -315,11 +328,49 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] IAM Policies
 - [x] STS AssumeRole
 - [x] Principle of Least Privilege
-- [ ] Amazon EC2
-- [ ] Amazon S3
-- [ ] Amazon VPC
-- [ ] AWS CLI
-- [ ] Terraform
+
+### Compute
+
+- [x] Amazon EC2 Linux Instance
+- [x] Amazon EC2 Windows Server
+- [x] SSH Connectivity
+- [x] RDP Connectivity
+- [x] EC2 Instance Connect
+- [x] AWS Systems Manager (SSM) Session Manager
+- [x] EC2 Serial Console
+- [x] Security Groups
+- [x] User Data Bootstrapping
+
+### Storage
+
+- [x] Amazon EBS
+- [x] EBS Snapshots
+- [x] Restore Volume from Snapshot
+- [x] Attach Additional EBS Volumes
+- [x] Amazon EFS
+- [x] Amazon RDS
+- [x] Amazon DocumentDB
+
+### Networking
+
+- [x] Elastic IP
+- [x] Application Load Balancer (ALB)
+- [x] Target Groups
+- [x] Health Checks
+- [x] Auto Scaling Groups
+- [x] High Availability across Availability Zones
+
+### Web Hosting
+
+- [x] Apache HTTP Server
+- [x] IIS Web Server
+
+### Database Administration
+
+- [x] MariaDB
+- [x] Microsoft SQL Server
+- [x] Amazon DocumentDB
+- [x] CRUD Operations
 
 ---
 
