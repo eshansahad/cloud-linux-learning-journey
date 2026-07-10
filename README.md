@@ -40,6 +40,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 25 | Jul 07, 2026 | IIS Web Server Hosting on Windows Server           | [View →](./cloud/day-25-iis-web-server.md)               |
 | Day 26 | Jul 08, 2026 | AWS RDS Administration (MariaDB & Microsoft SQL Server) | [View →](./cloud/day-26-aws-rds.md)                 |
 | Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/day-27-aws-documentdb-apache.md)      |
+| Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md) |
 > More sessions will be added as I progress.
 
 ---
@@ -69,23 +70,24 @@ cloud-linux-learning-journey/
 │   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
-│   ├── day-10-azure-vmss-load-balancer.md ← VMSS, snapshots, load balancer & HA web lab                        
-|   ├── day-11-vmss-autoscaling-lab.md   ← VMSS creation, autoscaling, stress testing
-│   ├── day-12-azure-storage-services.md ← Azure storage services and file share lab
-│   ├── day-13-app-service-function-logic-apps.md ← Azure App Service, Function App & Logic Apps
+│   ├── day-10-azure-vmss-load-balancer.md         ← VMSS, snapshots, load balancer & HA web lab                        
+|   ├── day-11-vmss-autoscaling-lab.md             ← VMSS creation, autoscaling, stress testing
+│   ├── day-12-azure-storage-services.md           ← Azure storage services and file share lab
+│   ├── day-13-app-service-function-logic-apps.md  ← Azure App Service, Function App & Logic Apps
 │   ├── day-14-azure-application-hosting-services.md ← Azure Application Hosting Services
-|   ├── day-15-azure-cli-vm-lab.md       ← Azure CLI VM creation, networking, NSG, SSH access
-│   ├── day-16-azure-containerization-lab.md ← Azure Container Registry, Docker Images & Azure Container Instances
+|   ├── day-15-azure-cli-vm-lab.md                 ← Azure CLI VM creation, networking, NSG, SSH access
+│   ├── day-16-azure-containerization-lab.md       ← Azure Container Registry, Docker Images & Azure Container Instances
 │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
-│   ├── day-18-azure-security-services.md ← Azure security, identity, networking & governance services
-│   ├── day-19-azure-database-services.md ← Azure SQL, MySQL & PostgreSQL Administration Labs
-│   ├── day-21-aws-budgets-iam.md                      ← AWS Billing, Budgets, IAM Users, 
+│   ├── day-18-azure-security-services.md          ← Azure security, identity, networking & governance services
+│   ├── day-19-azure-database-services.md          ← Azure SQL, MySQL & PostgreSQL Administration Labs
+│   ├── day-21-aws-budgets-iam.md                  ← AWS Billing, Budgets, IAM Users, 
 │   ├── day-22-aws-ec2-ebs.md                      ← EC2 Windows/Linux Administration & EBS Snapshots
 │   ├── day-23-aws-networking-load-balancing.md    ← Elastic IP, Auto Scaling Groups & Application Load Balancer
 │   ├── day-24-aws-efs.md                          ← Elastic File System (EFS) Administration
 │   ├── day-25-iis-web-server.md                   ← IIS Web Server Hosting on Windows Server
 │   ├── day-26-aws-rds.md                          ← Amazon RDS (MariaDB & Microsoft SQL Server)
 │   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
+│   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
 |   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
