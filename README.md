@@ -40,7 +40,8 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 25 | Jul 07, 2026 | IIS Web Server Hosting on Windows Server           | [View →](./cloud/day-25-iis-web-server.md)               |
 | Day 26 | Jul 08, 2026 | AWS RDS Administration (MariaDB & Microsoft SQL Server) | [View →](./cloud/day-26-aws-rds.md)                 |
 | Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/day-27-aws-documentdb-apache.md)      |
-| Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md) |
+| Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md)    |
+| Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/day-29-aws-s3-static-website-hosting.md)|
 > More sessions will be added as I progress.
 
 ---
@@ -88,6 +89,7 @@ cloud-linux-learning-journey/
 │   ├── day-26-aws-rds.md                          ← Amazon RDS (MariaDB & Microsoft SQL Server)
 │   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
 │   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
+│   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
 |   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
@@ -352,6 +354,10 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Amazon EFS
 - [x] Amazon RDS
 - [x] Amazon DocumentDB
+- [x] Amazon S3
+- [x] S3 Bucket Creation
+- [x] Static Website Hosting
+- [x] Bucket Policies
 
 ### Networking
 
@@ -366,6 +372,8 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 - [x] Apache HTTP Server
 - [x] IIS Web Server
+- [x] Public Access Configuration
+- [x] Website Deployment using Amazon S3
 
 ### Database Administration
 
