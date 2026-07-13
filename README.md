@@ -42,6 +42,8 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/day-27-aws-documentdb-apache.md)      |
 | Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md)    |
 | Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/day-29-aws-s3-static-website-hosting.md)|
+| Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/day-30-aws-elastic-beanstalk.md)        |
+
 > More sessions will be added as I progress.
 
 ---
@@ -90,6 +92,7 @@ cloud-linux-learning-journey/
 │   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
 │   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
 │   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
+│   ├── day-30-aws-elastic-beanstalk.md            ← AWS Elastic Beanstalk Application Deployment
 |   └── assets/                           ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
@@ -344,6 +347,10 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] EC2 Serial Console
 - [x] Security Groups
 - [x] User Data Bootstrapping
+- [x] AWS Elastic Beanstalk
+- [x] Platform as a Service (PaaS)
+- [x] Application Deployment
+- [x] Environment Management
 
 ### Storage
 
@@ -373,7 +380,8 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Apache HTTP Server
 - [x] IIS Web Server
 - [x] Public Access Configuration
-- [x] Website Deployment using Amazon S3
+- [x] Website Deployment using Amazon S3    
+- [x] AWS Elastic Beanstalk
 
 ### Database Administration
 
