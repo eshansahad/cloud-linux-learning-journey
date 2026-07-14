@@ -1,4 +1,4 @@
-# Cloud & Linux Learning Journey
++# Cloud & Linux Learning Journey
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 ---
@@ -55,6 +55,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | May 2026 | SSH Security Checker | Bash-based SSH security auditing tool for Linux hardening. | [View →](./projects/ssh-security-checker/) |
 | Jun 2026 | WordPress LAMP Deployment | Complete WordPress deployment on a Linux LAMP stack. | [View →](./projects/wordpress-lab-report/) |
 | Jun 2026 | Secure DevSecOps Pipeline v2.0 | Production-style DevSecOps CI/CD pipeline featuring Docker, GitHub Actions, Ruff, Pytest, Bandit, pip-audit, Gitleaks, Trivy, GitHub Container Registry (GHCR), and automatic deployment to Azure Container Apps. | [GitHub →](https://github.com/eshansahad/secure-devsecops-pipeline) |
+| Jul 2026 | Terraform EC2 Lab | Infrastructure as Code (IaC) project demonstrating automated AWS EC2 provisioning using Terraform, including IAM authentication, Security Groups, SSH access, troubleshooting, and infrastructure lifecycle management. | [GitHub →](https://github.com/eshansahad/terraform-ec2-lab) |
 
 ## Repo Structure
 
@@ -97,10 +98,14 @@ cloud-linux-learning-journey/
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
     ├── wordpress-lab-report/            ← Install and configure wordpress
-    └── secure-devsecops-pipeline/       ← DevSecOps project overview (links to external repository below)
+    ├── secure-devsecops-pipeline/       ← DevSecOps project overview (links to external repository below)
+    └── terraform-ec2-lab/               ← Terraform EC2 Lab overview & external repository link
 ```
 
-**External repository:** [secure-devsecops-pipeline →](https://github.com/eshansahad/secure-devsecops-pipeline)
+**External Repositories**
+
+- **Secure DevSecOps Pipeline:** https://github.com/eshansahad/secure-devsecops-pipeline
+- **Terraform EC2 Lab:** https://github.com/eshansahad/terraform-ec2-lab
 
 ---
 
@@ -185,6 +190,57 @@ https://github.com/eshansahad/secure-devsecops-pipeline
 | Operating System     | Windows 11                                            |
 | Future Deployment    | Azure Container Apps / Azure Kubernetes Service (AKS) |
 
+---
+
+## Terraform EC2 Lab
+
+A hands-on Infrastructure as Code (IaC) project that provisions an Amazon EC2 instance using Terraform. The project demonstrates automated infrastructure deployment, secure AWS authentication, custom security group configuration, SSH connectivity, and infrastructure lifecycle management.
+
+**Repository**
+
+https://github.com/eshansahad/terraform-ec2-lab
+
+**Highlights**
+
+* Infrastructure as Code (IaC) using Terraform
+* AWS CLI authentication with IAM user
+* Automated EC2 instance provisioning
+* Security Group creation and configuration
+* Terraform variables and outputs
+* SSH connectivity to Amazon Linux 2023
+* Infrastructure planning with `terraform plan`
+* Automated deployment using `terraform apply`
+* Clean resource removal using `terraform destroy`
+* Troubleshooting real-world Terraform deployment and AWS configuration issues
+
+**Skills Practiced**
+
+* Terraform
+* Infrastructure as Code (IaC)
+* Amazon EC2
+* AWS IAM
+* AWS CLI
+* Security Groups
+* SSH Administration
+* Infrastructure Automation
+* Cloud Resource Management
+* AWS CLI
+* Infrastructure Lifecycle Management
+
+### Terraform Project Environment
+
+| Component | Details |
+|-----------|---------|
+| Project | Terraform EC2 Lab |
+| Cloud Provider | Amazon Web Services (AWS) |
+| IaC Tool | Terraform |
+| Compute Service | Amazon EC2 |
+| Operating System | Amazon Linux 2023 |
+| Authentication | AWS CLI (IAM User Access Keys) |
+| Security | Security Groups |
+| Access Method | SSH |
+| Version Control | Git & GitHub |
+| Development Environment | Windows 11 + PowerShell |
 
 ---
 
@@ -392,9 +448,17 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Other Cloud Platforms
+## Infrastructure as Code (IaC)
 
-- [ ] Terraform — Infrastructure as Code
+- [x] Terraform installation & configuration
+- [x] AWS provider authentication
+- [x] Terraform variables and outputs
+- [x] Infrastructure provisioning using Terraform
+- [x] Amazon EC2 deployment
+- [x] Security Group configuration
+- [x] SSH connectivity
+- [x] Terraform workflow (`init`, `plan`, `apply`, `destroy`)
+- [x] Infrastructure cleanup using `terraform destroy`
 
 ---
 
