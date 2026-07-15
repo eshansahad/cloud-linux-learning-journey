@@ -43,6 +43,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md)    |
 | Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/day-29-aws-s3-static-website-hosting.md)|
 | Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/day-30-aws-elastic-beanstalk.md)        |
+| Day 31 | Jul 15, 2026 | AWS Backup, Recycle Bin, Lambda & AWS Batch        | [View →](./cloud/day-31-aws-backup-lambda-batch.md)      |
 
 > More sessions will be added as I progress.
 
@@ -94,7 +95,8 @@ cloud-linux-learning-journey/
 │   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
 │   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
 │   ├── day-30-aws-elastic-beanstalk.md            ← AWS Elastic Beanstalk Application Deployment
-|   └── assets/                           ← Screenshots from lab sessions
+│   ├── day-31-aws-backup-lambda-batch.md          ← AWS Backup, Recycle Bin, Lambda & AWS Batch
+|   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
     ├── wordpress-lab-report/            ← Install and configure wordpress
@@ -407,6 +409,26 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Platform as a Service (PaaS)
 - [x] Application Deployment
 - [x] Environment Management
+- [x] AWS Lambda
+- [x] Serverless Computing
+- [x] Lambda Functions
+- [x] CloudWatch Logs
+- [x] AWS Batch
+- [x] Compute Environments
+- [x] Job Queues
+- [x] Job Definitions
+- [x] Batch Job Execution
+
+### Backup & Disaster Recovery
+
+- [x] AWS Backup
+- [x] Backup Vaults
+- [x] Backup Plans
+- [x] Backup Scheduling
+- [x] Backup Recovery
+- [x] Amazon Recycle Bin
+- [x] Snapshot Protection
+- [x] Snapshot Recoverjy
 
 ### Storage
 
@@ -421,6 +443,12 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] S3 Bucket Creation
 - [x] Static Website Hosting
 - [x] Bucket Policies
+- [x] AWS Backup
+- [x] Backup Vaults
+- [x] Backup Plans
+- [x] Backup Recovery
+- [x] Amazon Recycle Bin
+- [x] Snapshot Recovery
 
 ### Networking
 
