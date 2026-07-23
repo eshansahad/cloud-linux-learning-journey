@@ -1,6 +1,13 @@
 # Cloud & Linux Learning Journey
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
+
+![Days Logged](https://img.shields.io/badge/days%20logged-32-2ea44f?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
+![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/last%20updated-Jul%202026-lightgrey?style=flat-square)
+
 ---
 
 ## About This Repo
@@ -44,6 +51,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/day-29-aws-s3-static-website-hosting.md)|
 | Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/day-30-aws-elastic-beanstalk.md)        |
 | Day 31 | Jul 15, 2026 | AWS Backup, Recycle Bin, Lambda & AWS Batch        | [View →](./cloud/day-31-aws-backup-lambda-batch.md)      |
+| Day 32 | Jul 23, 2026 | Internship Task 3 — Hosting & Publishing a DB-Backed Website on AWS (RHEL 10, Nginx, SELinux, Certbot) | [View Project →](https://github.com/eshansahad/securetrack) |
 
 > More sessions will be added as I progress.
 
@@ -57,6 +65,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Jun 2026 | WordPress LAMP Deployment | Complete WordPress deployment on a Linux LAMP stack. | [View →](./projects/wordpress-lab-report/) |
 | Jun 2026 | Secure DevSecOps Pipeline v2.0 | Production-style DevSecOps CI/CD pipeline featuring Docker, GitHub Actions, Ruff, Pytest, Bandit, pip-audit, Gitleaks, Trivy, GitHub Container Registry (GHCR), and automatic deployment to Azure Container Apps. | [GitHub →](https://github.com/eshansahad/secure-devsecops-pipeline) |
 | Jul 2026 | Terraform EC2 Lab | Infrastructure as Code (IaC) project demonstrating automated AWS EC2 provisioning using Terraform, including IAM authentication, Security Groups, SSH access, troubleshooting, and infrastructure lifecycle management. | [GitHub →](https://github.com/eshansahad/terraform-ec2-lab) |
+| Jul 2026 | SecureTrack — Cloud Deployment (Internship Task 3) | Full-stack MERN app (MongoDB, Express, React, Node.js) hosted end-to-end on AWS EC2 (RHEL 10): Nginx reverse proxy, self-hosted MongoDB with auth hardening, PM2 process management, SELinux troubleshooting, and a free SSL certificate via Certbot/Let's Encrypt on a No-IP dynamic domain. | [GitHub →](https://github.com/eshansahad/securetrack) |
 
 ## Repo Structure
 
@@ -101,13 +110,15 @@ cloud-linux-learning-journey/
     ├── ssh-security-checker/            ← SSH security auditing project
     ├── wordpress-lab-report/            ← Install and configure wordpress
     ├── secure-devsecops-pipeline/       ← DevSecOps project overview (links to external repository below)
-    └── terraform-ec2-lab/               ← Terraform EC2 Lab overview & external repository link
+    ├── terraform-ec2-lab/               ← Terraform EC2 Lab overview & external repository link
+    └── securetrack/                     ← SecureTrack deployment overview & external repository link
 ```
 
 **External Repositories**
 
 - **Secure DevSecOps Pipeline:** https://github.com/eshansahad/secure-devsecops-pipeline
 - **Terraform EC2 Lab:** https://github.com/eshansahad/terraform-ec2-lab
+- **SecureTrack:** https://github.com/eshansahad/securetrack
 
 ---
 
@@ -246,13 +257,63 @@ https://github.com/eshansahad/terraform-ec2-lab
 
 ---
 
-#  Learning Roadmap
+### SecureTrack — Cloud Deployment (Internship Task 3)
+
+A full-stack MERN application (IT asset & incident tracker) deployed end-to-end on a self-managed AWS EC2 instance — source code, dependency installation, database hardening, web server configuration, domain setup, and SSL, documented as internship deployment task 3.
+
+**Repository**
+
+https://github.com/eshansahad/securetrack
+
+**Highlights**
+
+* AWS EC2 provisioning (Red Hat Enterprise Linux 10, t3.micro, Free Tier)
+* SELinux troubleshooting — context labeling, booleans, `namei` diagnosis (chosen over the more commonly tutorialized Ubuntu path)
+* firewalld configuration for HTTP/HTTPS/SSH
+* Self-hosted MongoDB 7.0 with authentication enabled and least-privilege users
+* Nginx reverse proxy + static file serving
+* PM2 process management with boot persistence
+* Free dynamic DNS (No-IP) after troubleshooting a DuckDNS resolution failure
+* SSL via Certbot / Let's Encrypt with verified auto-renewal
+* Swap provisioning to resolve an out-of-memory frontend build on a 1GB RAM instance
+* Found and fixed a self-registration privilege-escalation bug before hosting
+
+**Skills Practiced**
+
+* AWS EC2 Administration
+* Red Hat Enterprise Linux (RHEL)
+* SELinux
+* firewalld
+* Nginx Reverse Proxy Configuration
+* MongoDB Administration & Hardening
+* PM2 Process Management
+* Certbot / Let's Encrypt SSL
+* Dynamic DNS Configuration
+* Full-Stack Deployment Troubleshooting
+
+### SecureTrack Project Environment
+
+| Component | Details |
+|-----------|---------|
+| Project | SecureTrack — IT Asset & Incident Tracker |
+| Cloud Provider | AWS EC2 (Free Tier) |
+| Operating System | Red Hat Enterprise Linux 10 |
+| Web Server | Nginx (reverse proxy + static hosting) |
+| Application Runtime | Node.js 18 + Express, managed by PM2 |
+| Database | MongoDB 7.0 (self-hosted, authentication enabled) |
+| Domain | No-IP free dynamic DNS |
+| SSL | Let's Encrypt via Certbot, auto-renewal enabled |
+| Version Control | Git & GitHub |
+
+---
+
+# Learning Roadmap
 
 A structured overview of completed and pending topics across Linux, Cloud (Azure), DevSecOps, and related infrastructure skills.
 
 ---
 
-##  Linux Administration
+## Linux Administration
 
 - [x] Linux basics — commands, users, file operations
 - [x] File management — `cp`, `mv`, `rm`, hard/soft links, I/O redirection, `grep`, pipes
@@ -270,7 +331,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Fundamentals
+## Azure Fundamentals
 
 - [x] Azure fundamentals — ARM, RBAC, IAM, scopes, Microsoft Entra ID
 - [x] Azure CLI fundamentals
@@ -282,7 +343,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Compute & Scaling
+## Azure Compute & Scaling
 
 - [x] Azure VM Scale Sets (VMSS) & autoscaling
 - [x] Azure VMSS, snapshots & load balancer lab
@@ -291,7 +352,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Storage & Data Services
+## Azure Storage & Data Services
 
 - [x] Storage accounts, blobs & file shares
 - [x] Storage explorer
@@ -300,7 +361,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Container Services
+## Azure Container Services
 
 - [x] Docker fundamentals
 - [x] Container images & Dockerfile
@@ -316,7 +377,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Application Hosting Services
+## Azure Application Hosting Services
 
 - [x] Azure App Service
 - [x] Azure Function App
@@ -330,7 +391,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Security Services
+## Azure Security Services
 
 - [x] Microsoft Entra ID
 - [x] Microsoft Defender for Cloud
@@ -347,7 +408,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  Azure Database Services
+## Azure Database Services
 
 - [x] Azure SQL Database
 - [x] Azure SQL Query Editor
@@ -362,7 +423,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 
 ---
 
-##  DevSecOps Pipeline Project
+## DevSecOps Pipeline Project
 
 - [x] Python Flask application
 - [x] Docker containerization
@@ -428,7 +489,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Backup Recovery
 - [x] Amazon Recycle Bin
 - [x] Snapshot Protection
-- [x] Snapshot Recoverjy
+- [x] Snapshot Recovery
 
 ### Storage
 
@@ -443,12 +504,6 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] S3 Bucket Creation
 - [x] Static Website Hosting
 - [x] Bucket Policies
-- [x] AWS Backup
-- [x] Backup Vaults
-- [x] Backup Plans
-- [x] Backup Recovery
-- [x] Amazon Recycle Bin
-- [x] Snapshot Recovery
 
 ### Networking
 
@@ -473,6 +528,19 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Microsoft SQL Server
 - [x] Amazon DocumentDB
 - [x] CRUD Operations
+
+### Cloud Deployment & Web Hosting (SecureTrack)
+
+- [x] Red Hat Enterprise Linux (RHEL) 10 administration
+- [x] SELinux — context labeling, booleans, `namei` diagnosis
+- [x] firewalld configuration
+- [x] Nginx reverse proxy & static file serving
+- [x] Self-hosted MongoDB hardening (auth, least-privilege users, localhost binding)
+- [x] PM2 process management & boot persistence
+- [x] Certbot / Let's Encrypt SSL with auto-renewal
+- [x] Dynamic DNS configuration (No-IP)
+- [x] Swap provisioning for low-RAM build environments
+- [x] Full-stack MERN production deployment
 
 ---
 
