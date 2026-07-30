@@ -259,7 +259,7 @@ https://github.com/eshansahad/terraform-ec2-lab
 
 ---
 
-### SecureTrack — Cloud Deployment (Internship Task 3)
+### SecureTrack — Cloud Deployment
 
 A full-stack MERN application (IT asset & incident tracker) deployed end-to-end on a self-managed AWS EC2 instance — source code, dependency installation, database hardening, web server configuration, domain setup, and SSL, documented as internship deployment task 3.
 
