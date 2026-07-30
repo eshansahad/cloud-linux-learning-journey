@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-32-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-33-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -52,6 +52,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/day-30-aws-elastic-beanstalk.md)        |
 | Day 31 | Jul 15, 2026 | AWS Backup, Recycle Bin, Lambda & AWS Batch        | [View →](./cloud/day-31-aws-backup-lambda-batch.md)      |
 | Day 32 | Jul 23, 2026 | Internship Task 3 — Hosting & Publishing a DB-Backed Website on AWS (RHEL 10, Nginx, SELinux, Certbot) | [View Project →](https://github.com/eshansahad/securetrack) |
+| Day 33 | Jul 14, 2026 | AWS Backup Administration                          | [View →](./cloud/day-33-aws-backup.md)                   |
 
 > More sessions will be added as I progress.
 
@@ -105,6 +106,7 @@ cloud-linux-learning-journey/
 │   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
 │   ├── day-30-aws-elastic-beanstalk.md            ← AWS Elastic Beanstalk Application Deployment
 │   ├── day-31-aws-backup-lambda-batch.md          ← AWS Backup, Recycle Bin, Lambda & AWS Batch
+│   ├── day-33-aws-backup.md                       ← AWS Backup Administration
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
