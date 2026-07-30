@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-37-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-40-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -57,6 +57,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 35 | Jul 17, 2026 | AWS Lambda & Serverless Computing                  | [View →](./cloud/day-35-aws-lambda.md)                   |
 | Day 36 | Jul 18, 2026 | AWS Batch Administration                           | [View →](./cloud/day-36-aws-batch.md)                    |
 | Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
+| Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
 
 > More sessions will be added as I progress.
 
@@ -114,6 +115,7 @@ cloud-linux-learning-journey/
 │   ├── day-34-aws-recycle-bin.md                  ← Amazon Recycle Bin Administration
 │   ├── day-35-aws-lambda.md                       ← AWS Lambda & Serverless Computing
 │   ├── day-36-aws-batch.md                        ← AWS Batch Administration
+│   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
 │   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
