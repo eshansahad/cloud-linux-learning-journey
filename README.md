@@ -58,6 +58,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 36 | Jul 18, 2026 | AWS Batch Administration                           | [View →](./cloud/day-36-aws-batch.md)                    |
 | Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
 | Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
+| Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS) | [View →](./cloud/day-39-amazon-eks.md) |
 
 > More sessions will be added as I progress.
 
@@ -117,6 +118,7 @@ cloud-linux-learning-journey/
 │   ├── day-36-aws-batch.md                        ← AWS Batch Administration
 │   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
 │   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
+│   ├── day-38-aws-ecr.md                          ← Amazon Elastic Container Registry (Amazon ECR)
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
