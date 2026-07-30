@@ -59,6 +59,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
 | Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
 | Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS) | [View →](./cloud/day-39-amazon-eks.md) |
+| Day 40 | Jul 24, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
 
 > More sessions will be added as I progress.
 
@@ -117,8 +118,9 @@ cloud-linux-learning-journey/
 │   ├── day-35-aws-lambda.md                       ← AWS Lambda & Serverless Computing
 │   ├── day-36-aws-batch.md                        ← AWS Batch Administration
 │   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
-│   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
 │   ├── day-38-aws-ecr.md                          ← Amazon Elastic Container Registry (Amazon ECR)
+│   ├── day-39-amazon-eks.md                       ← Amazon Elastic Kubernetes Service (Amazon EKS)
+│   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
