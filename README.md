@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-40-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-53-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -72,6 +72,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management | [View →](./cloud/day-50-aws-s3-glacier.md) |
 | Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration | [View →](./cloud/day-51-aws-rds-mysql.md) |
 | Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration | [View →](./cloud/day-52-aws-rds-postgresql.md) |
+| Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database | [View →](./cloud/day-53-amazon-aurora.md) |
 
 > More sessions will be added as I progress.
 
@@ -145,6 +146,7 @@ cloud-linux-learning-journey/
 │   ├── day-50-aws-s3-glacier.md          ← Amazon S3 Glacier & Lifecycle Management
 │   ├── day-51-aws-rds-mysql.md           ← Amazon RDS MySQL Administration
 │   ├── day-52-aws-rds-postgresql.md     ← Amazon RDS PostgreSQL Administration
+│   ├── day-53-amazon-aurora.md          ← Amazon Aurora MySQL-Compatible Database
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
