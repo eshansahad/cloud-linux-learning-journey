@@ -71,6 +71,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance | [View →](./cloud/day-49-aws-cloudtrail.md) |
 | Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management | [View →](./cloud/day-50-aws-s3-glacier.md) |
 | Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration | [View →](./cloud/day-51-aws-rds-mysql.md) |
+| Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration | [View →](./cloud/day-52-aws-rds-postgresql.md) |
 
 > More sessions will be added as I progress.
 
@@ -143,6 +144,7 @@ cloud-linux-learning-journey/
 │   ├── day-49-aws-cloudtrail.md           ← AWS CloudTrail Monitoring and Governance
 │   ├── day-50-aws-s3-glacier.md          ← Amazon S3 Glacier & Lifecycle Management
 │   ├── day-51-aws-rds-mysql.md           ← Amazon RDS MySQL Administration
+│   ├── day-52-aws-rds-postgresql.md     ← Amazon RDS PostgreSQL Administration
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
