@@ -59,10 +59,11 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
 | Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
 | Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS) | [View →](./cloud/day-39-amazon-eks.md) |
-| Day 40 | Jul 24, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
-| Day 41 | Jul 24, 2026 | AWS Amplify Frontend Web Application Deployment | [View →](./cloud/day-41-aws-amplify.md) |
+| Day 40 | Jul 23, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
+| Day 41 | Jul 23, 2026 | AWS Amplify Frontend Web Application Deployment | [View →](./cloud/day-41-aws-amplify.md) |
 | Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS) | [View →](./cloud/day-42-amazon-sns.md) |
 | Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS) | [View →](./cloud/day-43-amazon-sqs.md) |
+| Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES) | [View →](./cloud/day-44-amazon-ses.md) |
 
 > More sessions will be added as I progress.
 
@@ -127,6 +128,7 @@ cloud-linux-learning-journey/
 │   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
 │   ├── day-42-amazon-sns.md              ← Amazon Simple Notification Service (SNS)
 │   ├── day-43-amazon-sqs.md              ← Amazon Simple Queue Service (SQS)
+│   ├── day-44-amazon-ses.md              ← Amazon Simple Email Service (SES)
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
