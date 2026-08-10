@@ -73,6 +73,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration | [View →](./cloud/day-51-aws-rds-mysql.md) |
 | Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration | [View →](./cloud/day-52-aws-rds-postgresql.md) |
 | Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database | [View →](./cloud/day-53-amazon-aurora.md) |
+| Day 54 | Jul 09, 2026 | Amazon Neptune Graph Database | [View →](./cloud/day-54-amazon-neptune.md) |
 
 > More sessions will be added as I progress.
 
@@ -147,6 +148,7 @@ cloud-linux-learning-journey/
 │   ├── day-51-aws-rds-mysql.md           ← Amazon RDS MySQL Administration
 │   ├── day-52-aws-rds-postgresql.md     ← Amazon RDS PostgreSQL Administration
 │   ├── day-53-amazon-aurora.md          ← Amazon Aurora MySQL-Compatible Database
+│   ├── day-54-amazon-neptune.md          ← Amazon Neptune Graph Database
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
