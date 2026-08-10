@@ -60,6 +60,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
 | Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS) | [View →](./cloud/day-39-amazon-eks.md) |
 | Day 40 | Jul 24, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
+| Day 41 | Jul 24, 2026 | AWS Amplify Frontend Web Application Deployment | [View →](./cloud/day-41-aws-amplify.md) |
 
 > More sessions will be added as I progress.
 
@@ -121,6 +122,7 @@ cloud-linux-learning-journey/
 │   ├── day-38-aws-ecr.md                          ← Amazon Elastic Container Registry (Amazon ECR)
 │   ├── day-39-amazon-eks.md                       ← Amazon Elastic Kubernetes Service (Amazon EKS)
 │   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
+│   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
