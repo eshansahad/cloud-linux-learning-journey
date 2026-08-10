@@ -67,6 +67,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 45 | Jul 25, 2026 | Automated S3-to-SNS Event Notification | [View →](./cloud/day-45-s3-sns-event-notification.md) |
 | Day 46 | Jul 26, 2026 | Amazon Managed Service for Prometheus | [View →](./cloud/day-46-aws-prometheus.md) |
 | Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2 | [View →](./cloud/day-47-grafana-monitoring.md) |
+| Day 48 | Jul 17, 2026 | Amazon ECS with AWS Fargate | [View →](./cloud/day-48-aws-ecs.md) |
 
 > More sessions will be added as I progress.
 
@@ -135,6 +136,7 @@ cloud-linux-learning-journey/
 │   ├── day-45-s3-sns-event-notification.md  ← Automated S3-to-SNS Event Notification
 │   ├── day-46-aws-prometheus.md          ← Amazon Managed Service for Prometheus
 │   ├── day-47-grafana-monitoring.md      ← Grafana Monitoring on AWS EC2
+│   ├── day-48-aws-ecs.md                 ← Amazon ECS with AWS Fargate
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
