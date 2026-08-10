@@ -64,6 +64,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS) | [View →](./cloud/day-42-amazon-sns.md) |
 | Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS) | [View →](./cloud/day-43-amazon-sqs.md) |
 | Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES) | [View →](./cloud/day-44-amazon-ses.md) |
+| Day 45 | Jul 27, 2026 | Automated S3-to-SNS Event Notification | [View →](./cloud/day-45-s3-sns-event-notification.md) |
 
 > More sessions will be added as I progress.
 
@@ -129,6 +130,7 @@ cloud-linux-learning-journey/
 │   ├── day-42-amazon-sns.md              ← Amazon Simple Notification Service (SNS)
 │   ├── day-43-amazon-sqs.md              ← Amazon Simple Queue Service (SQS)
 │   ├── day-44-amazon-ses.md              ← Amazon Simple Email Service (SES)
+│   ├── day-45-s3-sns-event-notification.md  ← Automated S3-to-SNS Event Notification
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
