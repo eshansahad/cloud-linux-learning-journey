@@ -62,6 +62,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 40 | Jul 24, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
 | Day 41 | Jul 24, 2026 | AWS Amplify Frontend Web Application Deployment | [View →](./cloud/day-41-aws-amplify.md) |
 | Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS) | [View →](./cloud/day-42-amazon-sns.md) |
+| Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS) | [View →](./cloud/day-43-amazon-sqs.md) |
 
 > More sessions will be added as I progress.
 
@@ -125,6 +126,7 @@ cloud-linux-learning-journey/
 │   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
 │   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
 │   ├── day-42-amazon-sns.md              ← Amazon Simple Notification Service (SNS)
+│   ├── day-43-amazon-sqs.md              ← Amazon Simple Queue Service (SQS)
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
