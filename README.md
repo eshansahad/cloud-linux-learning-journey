@@ -69,6 +69,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2 | [View →](./cloud/day-47-grafana-monitoring.md) |
 | Day 48 | Jul 28, 2026 | Amazon ECS with AWS Fargate | [View →](./cloud/day-48-aws-ecs.md) |
 | Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance | [View →](./cloud/day-49-aws-cloudtrail.md) |
+| Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management | [View →](./cloud/day-50-aws-s3-glacier.md) |
 
 > More sessions will be added as I progress.
 
@@ -139,6 +140,7 @@ cloud-linux-learning-journey/
 │   ├── day-47-grafana-monitoring.md      ← Grafana Monitoring on AWS EC2
 │   ├── day-48-aws-ecs.md                 ← Amazon ECS with AWS Fargate
 │   ├── day-49-aws-cloudtrail.md           ← AWS CloudTrail Monitoring and Governance
+│   ├── day-50-aws-s3-glacier.md          ← Amazon S3 Glacier & Lifecycle Management
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
