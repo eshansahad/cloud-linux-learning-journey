@@ -77,6 +77,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 55 | Jul 09, 2026 | Amazon RDS MariaDB Administration | [View →](./cloud/day-55-aws-rds-mariadb.md) |
 | Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration | [View →](./cloud/day-56-aws-rds-sql-server.md) |
 | Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration | [View →](./cloud/day-57-aws-dynamodb.md) |
+| Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop | [View →](./cloud/day-58-amazon-workspaces.md) |
 
 > More sessions will be added as I progress.
 
@@ -155,6 +156,7 @@ cloud-linux-learning-journey/
 │   ├── day-55-aws-rds-mariadb.md        ← Amazon RDS MariaDB Administration
 │   ├── day-56-aws-rds-sql-server.md    ← Amazon RDS Microsoft SQL Server Administration
 │   ├── day-57-aws-dynamodb.md            ← Amazon DynamoDB Administration
+│   ├── day-58-amazon-workspaces.md       ← Amazon WorkSpaces Virtual Desktop
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
