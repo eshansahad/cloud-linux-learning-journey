@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-55-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-58-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -57,27 +57,27 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 35 | Jul 17, 2026 | AWS Lambda & Serverless Computing                  | [View →](./cloud/day-35-aws-lambda.md)                   |
 | Day 36 | Jul 18, 2026 | AWS Batch Administration                           | [View →](./cloud/day-36-aws-batch.md)                    |
 | Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
-| Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR) | [View →](./cloud/day-38-aws-ecr.md) |
-| Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS) | [View →](./cloud/day-39-amazon-eks.md) |
-| Day 40 | Jul 23, 2026 | Amazon Athena Serverless Query Service | [View →](./cloud/day-40-amazon-athena.md) |
-| Day 41 | Jul 23, 2026 | AWS Amplify Frontend Web Application Deployment | [View →](./cloud/day-41-aws-amplify.md) |
-| Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS) | [View →](./cloud/day-42-amazon-sns.md) |
-| Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS) | [View →](./cloud/day-43-amazon-sqs.md) |
-| Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES) | [View →](./cloud/day-44-amazon-ses.md) |
-| Day 45 | Jul 25, 2026 | Automated S3-to-SNS Event Notification | [View →](./cloud/day-45-s3-sns-event-notification.md) |
-| Day 46 | Jul 26, 2026 | Amazon Managed Service for Prometheus | [View →](./cloud/day-46-aws-prometheus.md) |
-| Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2 | [View →](./cloud/day-47-grafana-monitoring.md) |
-| Day 48 | Jul 28, 2026 | Amazon ECS with AWS Fargate | [View →](./cloud/day-48-aws-ecs.md) |
-| Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance | [View →](./cloud/day-49-aws-cloudtrail.md) |
-| Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management | [View →](./cloud/day-50-aws-s3-glacier.md) |
-| Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration | [View →](./cloud/day-51-aws-rds-mysql.md) |
-| Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration | [View →](./cloud/day-52-aws-rds-postgresql.md) |
-| Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database | [View →](./cloud/day-53-amazon-aurora.md) |
-| Day 54 | Jul 09, 2026 | Amazon Neptune Graph Database | [View →](./cloud/day-54-amazon-neptune.md) |
-| Day 55 | Jul 09, 2026 | Amazon RDS MariaDB Administration | [View →](./cloud/day-55-aws-rds-mariadb.md) |
-| Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration | [View →](./cloud/day-56-aws-rds-sql-server.md) |
-| Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration | [View →](./cloud/day-57-aws-dynamodb.md) |
-| Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop | [View →](./cloud/day-58-amazon-workspaces.md) |
+| Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR)     | [View →](./cloud/day-38-aws-ecr.md)                      |
+| Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS)     | [View →](./cloud/day-39-amazon-eks.md)                   |
+| Day 40 | Jul 23, 2026 | Amazon Athena Serverless Query Service             | [View →](./cloud/day-40-amazon-athena.md)                |  
+| Day 41 | Jul 23, 2026 | AWS Amplify Frontend Web Application Deployment    | [View →](./cloud/day-41-aws-amplify.md)                  |
+| Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS)           | [View →](./cloud/day-42-amazon-sns.md)                   |
+| Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS)                  | [View →](./cloud/day-43-amazon-sqs.md)                   |
+| Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES)                  | [View →](./cloud/day-44-amazon-ses.md)                   |
+| Day 45 | Jul 25, 2026 | Automated S3-to-SNS Event Notification             | [View →](./cloud/day-45-s3-sns-event-notification.md)    |
+| Day 46 | Jul 26, 2026 | Amazon Managed Service for Prometheus              | [View →](./cloud/day-46-aws-prometheus.md)               |
+| Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2                      | [View →](./cloud/day-47-grafana-monitoring.md)           |
+| Day 48 | Jul 28, 2026 | Amazon ECS with AWS Fargate                        | [View →](./cloud/day-48-aws-ecs.md)                      |
+| Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance           | [View →](./cloud/day-49-aws-cloudtrail.md)               |
+| Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management           | [View →](./cloud/day-50-aws-s3-glacier.md)               |
+| Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration                    | [View →](./cloud/day-51-aws-rds-mysql.md)                |
+| Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration               | [View →](./cloud/day-52-aws-rds-postgresql.md)           |
+| Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database            | [View →](./cloud/day-53-amazon-aurora.md)                |
+| Day 54 | Jul 09, 2026 | Amazon Neptune Graph Database                      | [View →](./cloud/day-54-amazon-neptune.md)               |
+| Day 55 | Jul 09, 2026 | Amazon RDS MariaDB Administration                  | [View →](./cloud/day-55-aws-rds-mariadb.md)              |
+| Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration     | [View →](./cloud/day-56-aws-rds-sql-server.md)           |
+| Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration                     | [View →](./cloud/day-57-aws-dynamodb.md)                 |
+| Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/day-58-amazon-workspaces.md)            |
 
 > More sessions will be added as I progress.
 
@@ -140,23 +140,23 @@ cloud-linux-learning-journey/
 │   ├── day-39-amazon-eks.md                       ← Amazon Elastic Kubernetes Service (Amazon EKS)
 │   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
 │   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
-│   ├── day-42-amazon-sns.md              ← Amazon Simple Notification Service (SNS)
-│   ├── day-43-amazon-sqs.md              ← Amazon Simple Queue Service (SQS)
-│   ├── day-44-amazon-ses.md              ← Amazon Simple Email Service (SES)
-│   ├── day-45-s3-sns-event-notification.md  ← Automated S3-to-SNS Event Notification
-│   ├── day-46-aws-prometheus.md          ← Amazon Managed Service for Prometheus
-│   ├── day-47-grafana-monitoring.md      ← Grafana Monitoring on AWS EC2
-│   ├── day-48-aws-ecs.md                 ← Amazon ECS with AWS Fargate
-│   ├── day-49-aws-cloudtrail.md           ← AWS CloudTrail Monitoring and Governance
-│   ├── day-50-aws-s3-glacier.md          ← Amazon S3 Glacier & Lifecycle Management
-│   ├── day-51-aws-rds-mysql.md           ← Amazon RDS MySQL Administration
-│   ├── day-52-aws-rds-postgresql.md     ← Amazon RDS PostgreSQL Administration
-│   ├── day-53-amazon-aurora.md          ← Amazon Aurora MySQL-Compatible Database
-│   ├── day-54-amazon-neptune.md          ← Amazon Neptune Graph Database
-│   ├── day-55-aws-rds-mariadb.md        ← Amazon RDS MariaDB Administration
-│   ├── day-56-aws-rds-sql-server.md    ← Amazon RDS Microsoft SQL Server Administration
-│   ├── day-57-aws-dynamodb.md            ← Amazon DynamoDB Administration
-│   ├── day-58-amazon-workspaces.md       ← Amazon WorkSpaces Virtual Desktop
+│   ├── day-42-amazon-sns.md                       ← Amazon Simple Notification Service (SNS)
+│   ├── day-43-amazon-sqs.md                       ← Amazon Simple Queue Service (SQS)
+│   ├── day-44-amazon-ses.md                       ← Amazon Simple Email Service (SES)
+│   ├── day-45-s3-sns-event-notification.md        ← Automated S3-to-SNS Event Notification
+│   ├── day-46-aws-prometheus.md                   ← Amazon Managed Service for Prometheus
+│   ├── day-47-grafana-monitoring.md               ← Grafana Monitoring on AWS EC2
+│   ├── day-48-aws-ecs.md                          ← Amazon ECS with AWS Fargate
+│   ├── day-49-aws-cloudtrail.md                   ← AWS CloudTrail Monitoring and Governance
+│   ├── day-50-aws-s3-glacier.md                   ← Amazon S3 Glacier & Lifecycle Management
+│   ├── day-51-aws-rds-mysql.md                    ← Amazon RDS MySQL Administration
+│   ├── day-52-aws-rds-postgresql.md               ← Amazon RDS PostgreSQL Administration
+│   ├── day-53-amazon-aurora.md                    ← Amazon Aurora MySQL-Compatible Database
+│   ├── day-54-amazon-neptune.md                   ← Amazon Neptune Graph Database
+│   ├── day-55-aws-rds-mariadb.md                  ← Amazon RDS MariaDB Administration
+│   ├── day-56-aws-rds-sql-server.md               ← Amazon RDS Microsoft SQL Server Administration
+│   ├── day-57-aws-dynamodb.md                     ← Amazon DynamoDB Administration
+│   ├── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
 |   └── assets/                          ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
