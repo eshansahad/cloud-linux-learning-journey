@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, multi-cloud platforms, enterprise productivity suites, DevSecOps, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-58-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-59-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20GWS%20%7C%20M365%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -78,6 +78,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration     | [View →](./cloud/aws/day-56-aws-rds-sql-server.md)           |
 | Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration                     | [View →](./cloud/aws/day-57-aws-dynamodb.md)                 |
 | Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/aws/day-58-amazon-workspaces.md)            |
+| Day 59 | Aug 12, 2026 | Google Workspace Admin Fundamentals — OUs, Users, Groups, Resources & Buildings | [View →](./cloud/gws/day-59-gws-admin-fundamentals.md) |
 
 > More sessions will be added as I progress.
 
@@ -160,7 +161,7 @@ cloud-linux-learning-journey/
 │   │   ├── day-57-aws-dynamodb.md                     ← Amazon DynamoDB Administration
 │   │   └── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
 │   ├── gws/                                       ← Google Workspace (starting Day 59)
-│   │   └── README.md                                  ← Placeholder — sessions logged as they happen
+│   │   └── day-59-gws-admin-fundamentals.md           ← OUs, Users, Groups, Resources & Buildings admin lab
 │   ├── m365/                                      ← Microsoft 365 (upcoming)
 │   │   └── README.md                                  ← Placeholder — sessions logged as they happen
 │   └── assets/                                    ← Screenshots from lab sessions
@@ -397,7 +398,7 @@ A structured overview of completed and pending topics across Linux, multi-cloud 
 - [x] Virtual networks & subnets using Azure CLI
 - [x] Network Security Groups (NSG)
 - [x] Linux VM administration via SSH
-- [ ] Cloud architecture — real-world project
+- [x] Cloud architecture — real-world project
 
 ---
 
@@ -604,11 +605,15 @@ A structured overview of completed and pending topics across Linux, multi-cloud 
 
 ## Google Workspace (GWS)
 
-- [ ] Google Admin Console — organizational units, users, groups
-- [ ] Identity & access — 2-Step Verification, SSO, provisioning
+- [x] Google Admin Console — organizational units, users, groups
+- [x] User lifecycle — provisioning, OU transfers, suspension & restoration
+- [x] Bulk user provisioning via CSV upload
+- [x] Google Groups — access levels, restricted mailing lists
+- [x] Buildings & resources — bookable equipment and meeting rooms
+- [ ] Identity & access — 2-Step Verification, SSO
 - [ ] Gmail administration — routing, DKIM/SPF/DMARC, security settings
 - [ ] Google Drive & Shared Drives — sharing policies, DLP
-- [ ] Google Calendar administration & resource management
+- [ ] Google Calendar administration (beyond resource booking)
 - [ ] Google Meet administration & policies
 - [ ] Endpoint management (mobile & desktop)
 - [ ] Reporting & audit logs
