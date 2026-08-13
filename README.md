@@ -1,18 +1,18 @@
 # Cloud & Linux Learning Journey
 
-> **Learning in public** — documenting my step-by-step journey through Linux, cloud concepts, devsecops, and more hands-on practice.
+> **Learning in public** — documenting my step-by-step journey through Linux, multi-cloud platforms, enterprise productivity suites, DevSecOps, and more hands-on practice.
 
 ![Days Logged](https://img.shields.io/badge/days%20logged-58-2ea44f?style=flat-square)
-![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20DevSecOps-blue?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20GWS%20%7C%20M365%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
-![Last Updated](https://img.shields.io/badge/last%20updated-Jul%202026-lightgrey?style=flat-square)
+![Last Updated](https://img.shields.io/badge/last%20updated-Aug%202026-lightgrey?style=flat-square)
 
 ---
 
 ## About This Repo
 
-This repository documents my hands-on learning journey through Linux administration, cloud computing, Azure services, containerization, and DevSecOps. Every topic is accompanied by practical labs, notes, and real-world projects, helping me build a strong foundation in modern infrastructure, automation, and secure software delivery.
+This repository documents my hands-on learning journey through Linux administration, multi-cloud computing (Microsoft Azure, Amazon Web Services), enterprise productivity & identity platforms (Google Workspace, Microsoft 365), containerization, and DevSecOps. Every topic is accompanied by practical labs, notes, and real-world projects, helping me build a strong foundation in modern infrastructure, automation, and secure software delivery — on the path from Lead Developer to DevSecOps Engineer.
 
 ---
 
@@ -29,55 +29,55 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 07 | May 25, 2026 | Job Scheduling (at & cron) & Disk Management       | [View →](./linux/day-07-scheduling-disk.md)              |
 | Day 08 | May 26, 2026 | Storage Partitioning & Process Management          | [View →](./linux/day-08-storage-processes.md)            |
 | Day 09 | May 27, 2026 | Linux Administration Lab — File Ops, Users, Permissions, Services, Apache, Bash & Cron | [View →](./linux/day-09-linux-admin-lab.md) |
-| Day 10 | Jun 08, 2026 | Azure VMSS, Snapshots & Load Balancer Lab          | [View →](./cloud/day-10-azure-vmss-load-balancer.md)     |
-| Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/day-11-vmss-autoscaling-lab.md)         |
-| Day 12 | Jun 16, 2026 | Azure Storage Services & File Share Lab            | [View →](./cloud/day-12-azure-storage-services.md)       |
-| Day 13 | Jun 18, 2026 | Azure App Service, Function App & Logic Apps       | [View →](./cloud/day-13-app-service-function-logic-apps.md) |
-| Day 14 | Jun 19, 2026 | Azure Application Hosting Services                 | [View →](./cloud/day-14-azure-application-hosting-services.md) |
-| Day 15 | Jun 22, 2026 | Azure CLI Virtual Machine Administration Lab       | [View →](./cloud/day-15-azure-cli-vm-lab.md)             |
-| Day 16 | Jun 23, 2026 | Azure Container Registry (ACR) & Azure Container Instances (ACI) | [View →](./cloud/day-16-azure-containerization-lab.md) |
-| Day 17 | Jun 24, 2026 | Azure Container Services & Application Hosting Services | [View →](./cloud/day-17-azure-container-services-hosting.md) |
-| Day 18 | Jun 25, 2026 | Azure Security Services                            | [View →](./cloud/day-18-azure-security-services.md)      |
-| Day 19 | Jun 26, 2026 | Azure Database Services (SQL, MySQL & PostgreSQL)  | [View →](./cloud/day-19-azure-database-services.md)      |
+| Day 10 | Jun 08, 2026 | Azure VMSS, Snapshots & Load Balancer Lab          | [View →](./cloud/azure/day-10-azure-vmss-load-balancer.md)     |
+| Day 11 | Jun 10, 2026 | Azure VMSS Autoscaling Lab                         | [View →](./cloud/azure/day-11-vmss-autoscaling.md)         |
+| Day 12 | Jun 16, 2026 | Azure Storage Services & File Share Lab            | [View →](./cloud/azure/day-12-azure-storage-services.md)       |
+| Day 13 | Jun 18, 2026 | Azure App Service, Function App & Logic Apps       | [View →](./cloud/azure/day-13-app-service-function-logic-apps.md) |
+| Day 14 | Jun 19, 2026 | Azure Application Hosting Services                 | [View →](./cloud/azure/day-14-azure-application-hosting-services.md) |
+| Day 15 | Jun 22, 2026 | Azure CLI Virtual Machine Administration Lab       | [View →](./cloud/azure/day-15-azure-cli-vm-lab.md)             |
+| Day 16 | Jun 23, 2026 | Azure Container Registry (ACR) & Azure Container Instances (ACI) | [View →](./cloud/azure/day-16-azure-containerization-lab.md) |
+| Day 17 | Jun 24, 2026 | Azure Container Services & Application Hosting Services | [View →](./cloud/azure/day-17-azure-container-services-hosting.md) |
+| Day 18 | Jun 25, 2026 | Azure Security Services                            | [View →](./cloud/azure/day-18-azure-security-services.md)      |
+| Day 19 | Jun 26, 2026 | Azure Database Services (SQL, MySQL & PostgreSQL)  | [View →](./cloud/azure/day-19-azure-database-services.md)      |
 | Day 20 | Jun 30, 2026 | DevSecOps CI/CD Project – Azure Edition            | [View Project →](https://github.com/eshansahad/secure-devsecops-pipeline) |
-| Day 21 | Jun 30, 2026 | AWS Billing, Budgets & IAM Fundamentals            | [View →](./cloud/day-21-aws-budgets-iam.md)              |
-| Day 22 | Jul 02, 2026 | AWS EC2 Administration & EBS Snapshots             | [View →](./cloud/day-22-aws-ec2-ebs.md)                  |
-| Day 23 | Jul 03, 2026 | AWS Elastic IP, Application Load Balancer & Auto Scaling | [View →](./cloud/day-23-aws-networking-load-balancing.md) |
-| Day 24 | Jul 06, 2026 | AWS Elastic File System (EFS) Administration       | [View →](./cloud/day-24-aws-efs.md)                      |
-| Day 25 | Jul 07, 2026 | IIS Web Server Hosting on Windows Server           | [View →](./cloud/day-25-iis-web-server.md)               |
-| Day 26 | Jul 08, 2026 | AWS RDS Administration (MariaDB & Microsoft SQL Server) | [View →](./cloud/day-26-aws-rds.md)                 |
-| Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/day-27-aws-documentdb-apache.md)      |
-| Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/day-28-ubuntu-apache-web-hosting.md)    |
-| Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/day-29-aws-s3-static-website-hosting.md)|
-| Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/day-30-aws-elastic-beanstalk.md)        |
-| Day 31 | Jul 15, 2026 | AWS Backup, Recycle Bin, Lambda & AWS Batch        | [View →](./cloud/day-31-aws-backup-lambda-batch.md)      |
+| Day 21 | Jun 30, 2026 | AWS Billing, Budgets & IAM Fundamentals            | [View →](./cloud/aws/day-21-aws-budgets-iam.md)              |
+| Day 22 | Jul 02, 2026 | AWS EC2 Administration & EBS Snapshots             | [View →](./cloud/aws/day-22-aws-ec2-ebs.md)                  |
+| Day 23 | Jul 03, 2026 | AWS Elastic IP, Application Load Balancer & Auto Scaling | [View →](./cloud/aws/day-23-aws-networking-load-balancing.md) |
+| Day 24 | Jul 06, 2026 | AWS Elastic File System (EFS) Administration       | [View →](./cloud/aws/day-24-aws-efs.md)                      |
+| Day 25 | Jul 07, 2026 | IIS Web Server Hosting on Windows Server           | [View →](./cloud/aws/day-25-iis-web-server.md)               |
+| Day 26 | Jul 08, 2026 | AWS RDS Administration (MariaDB & Microsoft SQL Server) | [View →](./cloud/aws/day-26-aws-rds.md)                 |
+| Day 27 | Jul 09, 2026 | Amazon DocumentDB & Apache Web Server Administration | [View →](./cloud/aws/day-27-aws-documentdb-apache.md)      |
+| Day 28 | Jul 09, 2026 | Hosting a Website on Ubuntu Server using Apache    | [View →](./cloud/aws/day-28-ubuntu-apache-web-hosting.md)    |
+| Day 29 | Jul 10, 2026 | Amazon S3 Static Website Hosting                   | [View →](./cloud/aws/day-29-aws-s3-static-website-hosting.md)|
+| Day 30 | Jul 13, 2026 | AWS Elastic Beanstalk Application Deployment       | [View →](./cloud/aws/day-30-aws-elastic-beanstalk.md)        |
+| Day 31 | Jul 15, 2026 | AWS Backup, Recycle Bin, Lambda & AWS Batch        | [View →](./cloud/aws/day-31-aws-backup-lambda-batch.md)      |
 | Day 32 | Jul 23, 2026 | Internship Task 3 — Hosting & Publishing a DB-Backed Website on AWS (RHEL 10, Nginx, SELinux, Certbot) | [View Project →](https://github.com/eshansahad/securetrack) |
-| Day 33 | Jul 14, 2026 | AWS Backup Administration                          | [View →](./cloud/day-33-aws-backup.md)                   |
-| Day 34 | Jul 16, 2026 | Amazon Recycle Bin Administration                  | [View →](./cloud/day-34-aws-recycle-bin.md)              |
-| Day 35 | Jul 17, 2026 | AWS Lambda & Serverless Computing                  | [View →](./cloud/day-35-aws-lambda.md)                   |
-| Day 36 | Jul 18, 2026 | AWS Batch Administration                           | [View →](./cloud/day-36-aws-batch.md)                    |
-| Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/day-37-amazon-lightsail.md)             |
-| Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR)     | [View →](./cloud/day-38-aws-ecr.md)                      |
-| Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS)     | [View →](./cloud/day-39-amazon-eks.md)                   |
-| Day 40 | Jul 23, 2026 | Amazon Athena Serverless Query Service             | [View →](./cloud/day-40-amazon-athena.md)                |  
-| Day 41 | Jul 23, 2026 | AWS Amplify Frontend Web Application Deployment    | [View →](./cloud/day-41-aws-amplify.md)                  |
-| Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS)           | [View →](./cloud/day-42-amazon-sns.md)                   |
-| Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS)                  | [View →](./cloud/day-43-amazon-sqs.md)                   |
-| Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES)                  | [View →](./cloud/day-44-amazon-ses.md)                   |
-| Day 45 | Jul 25, 2026 | Automated S3-to-SNS Event Notification             | [View →](./cloud/day-45-s3-sns-event-notification.md)    |
-| Day 46 | Jul 26, 2026 | Amazon Managed Service for Prometheus              | [View →](./cloud/day-46-aws-prometheus.md)               |
-| Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2                      | [View →](./cloud/day-47-grafana-monitoring.md)           |
-| Day 48 | Jul 28, 2026 | Amazon ECS with AWS Fargate                        | [View →](./cloud/day-48-aws-ecs.md)                      |
-| Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance           | [View →](./cloud/day-49-aws-cloudtrail.md)               |
-| Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management           | [View →](./cloud/day-50-aws-s3-glacier.md)               |
-| Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration                    | [View →](./cloud/day-51-aws-rds-mysql.md)                |
-| Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration               | [View →](./cloud/day-52-aws-rds-postgresql.md)           |
-| Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database            | [View →](./cloud/day-53-amazon-aurora.md)                |
-| Day 54 | Jul 09, 2026 | Amazon Neptune Graph Database                      | [View →](./cloud/day-54-amazon-neptune.md)               |
-| Day 55 | Jul 09, 2026 | Amazon RDS MariaDB Administration                  | [View →](./cloud/day-55-aws-rds-mariadb.md)              |
-| Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration     | [View →](./cloud/day-56-aws-rds-sql-server.md)           |
-| Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration                     | [View →](./cloud/day-57-aws-dynamodb.md)                 |
-| Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/day-58-amazon-workspaces.md)            |
+| Day 33 | Jul 14, 2026 | AWS Backup Administration                          | [View →](./cloud/aws/day-33-aws-backup.md)                   |
+| Day 34 | Jul 16, 2026 | Amazon Recycle Bin Administration                  | [View →](./cloud/aws/day-34-aws-recycle-bin.md)              |
+| Day 35 | Jul 17, 2026 | AWS Lambda & Serverless Computing                  | [View →](./cloud/aws/day-35-aws-lambda.md)                   |
+| Day 36 | Jul 18, 2026 | AWS Batch Administration                           | [View →](./cloud/aws/day-36-aws-batch.md)                    |
+| Day 37 | Jul 18, 2026 | Amazon Lightsail WordPress Deployment              | [View →](./cloud/aws/day-37-amazon-lightsail.md)             |
+| Day 38 | Jul 21, 2026 | Amazon Elastic Container Registry (Amazon ECR)     | [View →](./cloud/aws/day-38-aws-ecr.md)                      |
+| Day 39 | Jul 22, 2026 | Amazon Elastic Kubernetes Service (Amazon EKS)     | [View →](./cloud/aws/day-39-amazon-eks.md)                   |
+| Day 40 | Jul 23, 2026 | Amazon Athena Serverless Query Service             | [View →](./cloud/aws/day-40-amazon-athena.md)                |  
+| Day 41 | Jul 23, 2026 | AWS Amplify Frontend Web Application Deployment    | [View →](./cloud/aws/day-41-aws-amplify.md)                  |
+| Day 42 | Jul 24, 2026 | Amazon Simple Notification Service (SNS)           | [View →](./cloud/aws/day-42-amazon-sns.md)                   |
+| Day 43 | Jul 24, 2026 | Amazon Simple Queue Service (SQS)                  | [View →](./cloud/aws/day-43-amazon-sqs.md)                   |
+| Day 44 | Jul 24, 2026 | Amazon Simple Email Service (SES)                  | [View →](./cloud/aws/day-44-amazon-ses.md)                   |
+| Day 45 | Jul 25, 2026 | Automated S3-to-SNS Event Notification             | [View →](./cloud/aws/day-45-s3-sns-event-notification.md)    |
+| Day 46 | Jul 26, 2026 | Amazon Managed Service for Prometheus              | [View →](./cloud/aws/day-46-aws-prometheus.md)               |
+| Day 47 | Jul 27, 2026 | Grafana Monitoring on AWS EC2                      | [View →](./cloud/aws/day-47-grafana-monitoring.md)           |
+| Day 48 | Jul 28, 2026 | Amazon ECS with AWS Fargate                        | [View →](./cloud/aws/day-48-aws-ecs.md)                      |
+| Day 49 | Jul 29, 2026 | AWS CloudTrail Monitoring and Governance           | [View →](./cloud/aws/day-49-aws-cloudtrail.md)               |
+| Day 50 | Jul 06, 2026 | Amazon S3 Glacier & Lifecycle Management           | [View →](./cloud/aws/day-50-aws-s3-glacier.md)               |
+| Day 51 | Jul 07, 2026 | Amazon RDS MySQL Administration                    | [View →](./cloud/aws/day-51-aws-rds-mysql.md)                |
+| Day 52 | Jul 08, 2026 | Amazon RDS PostgreSQL Administration               | [View →](./cloud/aws/day-52-aws-rds-postgresql.md)           |
+| Day 53 | Jul 09, 2026 | Amazon Aurora MySQL-Compatible Database            | [View →](./cloud/aws/day-53-amazon-aurora.md)                |
+| Day 54 | Jul 09, 2026 | Amazon Neptune Graph Database                      | [View →](./cloud/aws/day-54-amazon-neptune.md)               |
+| Day 55 | Jul 09, 2026 | Amazon RDS MariaDB Administration                  | [View →](./cloud/aws/day-55-aws-rds-mariadb.md)              |
+| Day 56 | Jul 09, 2026 | Amazon RDS Microsoft SQL Server Administration     | [View →](./cloud/aws/day-56-aws-rds-sql-server.md)           |
+| Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration                     | [View →](./cloud/aws/day-57-aws-dynamodb.md)                 |
+| Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/aws/day-58-amazon-workspaces.md)            |
 
 > More sessions will be added as I progress.
 
@@ -110,54 +110,60 @@ cloud-linux-learning-journey/
 │   ├── day-09-linux-admin-lab.md        ← Consolidation lab: file ops, users, chmod, systemctl, Apache, bash scripts
 │   └── assets/                          ← Screenshots from lab sessions
 ├── cloud/
-│   ├── day-10-azure-vmss-load-balancer.md         ← VMSS, snapshots, load balancer & HA web lab                        
-|   ├── day-11-vmss-autoscaling-lab.md             ← VMSS creation, autoscaling, stress testing
-│   ├── day-12-azure-storage-services.md           ← Azure storage services and file share lab
-│   ├── day-13-app-service-function-logic-apps.md  ← Azure App Service, Function App & Logic Apps
-│   ├── day-14-azure-application-hosting-services.md ← Azure Application Hosting Services
-|   ├── day-15-azure-cli-vm-lab.md                 ← Azure CLI VM creation, networking, NSG, SSH access
-│   ├── day-16-azure-containerization-lab.md       ← Azure Container Registry, Docker Images & Azure Container Instances
-│   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
-│   ├── day-18-azure-security-services.md          ← Azure security, identity, networking & governance services
-│   ├── day-19-azure-database-services.md          ← Azure SQL, MySQL & PostgreSQL Administration Labs
-│   ├── day-21-aws-budgets-iam.md                  ← AWS Billing, Budgets, IAM Users, 
-│   ├── day-22-aws-ec2-ebs.md                      ← EC2 Windows/Linux Administration & EBS Snapshots
-│   ├── day-23-aws-networking-load-balancing.md    ← Elastic IP, Auto Scaling Groups & Application Load Balancer
-│   ├── day-24-aws-efs.md                          ← Elastic File System (EFS) Administration
-│   ├── day-25-iis-web-server.md                   ← IIS Web Server Hosting on Windows Server
-│   ├── day-26-aws-rds.md                          ← Amazon RDS (MariaDB & Microsoft SQL Server)
-│   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
-│   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
-│   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
-│   ├── day-30-aws-elastic-beanstalk.md            ← AWS Elastic Beanstalk Application Deployment
-│   ├── day-31-aws-backup-lambda-batch.md          ← AWS Backup, Recycle Bin, Lambda & AWS Batch
-│   ├── day-33-aws-backup.md                       ← AWS Backup Administration
-│   ├── day-34-aws-recycle-bin.md                  ← Amazon Recycle Bin Administration
-│   ├── day-35-aws-lambda.md                       ← AWS Lambda & Serverless Computing
-│   ├── day-36-aws-batch.md                        ← AWS Batch Administration
-│   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
-│   ├── day-38-aws-ecr.md                          ← Amazon Elastic Container Registry (Amazon ECR)
-│   ├── day-39-amazon-eks.md                       ← Amazon Elastic Kubernetes Service (Amazon EKS)
-│   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
-│   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
-│   ├── day-42-amazon-sns.md                       ← Amazon Simple Notification Service (SNS)
-│   ├── day-43-amazon-sqs.md                       ← Amazon Simple Queue Service (SQS)
-│   ├── day-44-amazon-ses.md                       ← Amazon Simple Email Service (SES)
-│   ├── day-45-s3-sns-event-notification.md        ← Automated S3-to-SNS Event Notification
-│   ├── day-46-aws-prometheus.md                   ← Amazon Managed Service for Prometheus
-│   ├── day-47-grafana-monitoring.md               ← Grafana Monitoring on AWS EC2
-│   ├── day-48-aws-ecs.md                          ← Amazon ECS with AWS Fargate
-│   ├── day-49-aws-cloudtrail.md                   ← AWS CloudTrail Monitoring and Governance
-│   ├── day-50-aws-s3-glacier.md                   ← Amazon S3 Glacier & Lifecycle Management
-│   ├── day-51-aws-rds-mysql.md                    ← Amazon RDS MySQL Administration
-│   ├── day-52-aws-rds-postgresql.md               ← Amazon RDS PostgreSQL Administration
-│   ├── day-53-amazon-aurora.md                    ← Amazon Aurora MySQL-Compatible Database
-│   ├── day-54-amazon-neptune.md                   ← Amazon Neptune Graph Database
-│   ├── day-55-aws-rds-mariadb.md                  ← Amazon RDS MariaDB Administration
-│   ├── day-56-aws-rds-sql-server.md               ← Amazon RDS Microsoft SQL Server Administration
-│   ├── day-57-aws-dynamodb.md                     ← Amazon DynamoDB Administration
-│   ├── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
-|   └── assets/                          ← Screenshots from lab sessions
+│   ├── azure/                                     ← Microsoft Azure (Day 10-19)
+│   │   ├── day-10-azure-vmss-load-balancer.md         ← VMSS, snapshots, load balancer & HA web lab
+│   │   ├── day-11-vmss-autoscaling.md                 ← VMSS creation, autoscaling, stress testing
+│   │   ├── day-12-azure-storage-services.md           ← Azure storage services and file share lab
+│   │   ├── day-13-app-service-function-logic-apps.md  ← Azure App Service, Function App & Logic Apps
+│   │   ├── day-14-azure-application-hosting-services.md ← Azure Application Hosting Services
+│   │   ├── day-15-azure-cli-vm-lab.md                 ← Azure CLI VM creation, networking, NSG, SSH access
+│   │   ├── day-16-azure-containerization-lab.md       ← Azure Container Registry, Docker Images & Azure Container Instances
+│   │   ├── day-17-azure-container-services-hosting.md ← Azure Container Services, AKS, Container Apps & Hosting Services
+│   │   ├── day-18-azure-security-services.md          ← Azure security, identity, networking & governance services
+│   │   └── day-19-azure-database-services.md          ← Azure SQL, MySQL & PostgreSQL Administration Labs
+│   ├── aws/                                       ← Amazon Web Services (Day 21-58)
+│   │   ├── day-21-aws-budgets-iam.md                  ← AWS Billing, Budgets, IAM Users
+│   │   ├── day-22-aws-ec2-ebs.md                      ← EC2 Windows/Linux Administration & EBS Snapshots
+│   │   ├── day-23-aws-networking-load-balancing.md    ← Elastic IP, Auto Scaling Groups & Application Load Balancer
+│   │   ├── day-24-aws-efs.md                          ← Elastic File System (EFS) Administration
+│   │   ├── day-25-iis-web-server.md                   ← IIS Web Server Hosting on Windows Server
+│   │   ├── day-26-aws-rds.md                          ← Amazon RDS (MariaDB & Microsoft SQL Server)
+│   │   ├── day-27-aws-documentdb-apache.md            ← Amazon DocumentDB & Apache Web Server Administration
+│   │   ├── day-28-ubuntu-apache-web-hosting.md        ← Ubuntu Server, Apache2, Virtual Hosts & Static Website Deployment
+│   │   ├── day-29-aws-s3-static-website-hosting.md    ← Amazon S3 Static Website Hosting & Deployment
+│   │   ├── day-30-aws-elastic-beanstalk.md            ← AWS Elastic Beanstalk Application Deployment
+│   │   ├── day-31-aws-backup-lambda-batch.md          ← AWS Backup, Recycle Bin, Lambda & AWS Batch
+│   │   ├── day-33-aws-backup.md                       ← AWS Backup Administration
+│   │   ├── day-34-aws-recycle-bin.md                  ← Amazon Recycle Bin Administration
+│   │   ├── day-35-aws-lambda.md                       ← AWS Lambda & Serverless Computing
+│   │   ├── day-36-aws-batch.md                        ← AWS Batch Administration
+│   │   ├── day-37-amazon-lightsail.md                 ← Amazon Lightsail WordPress Deployment
+│   │   ├── day-38-aws-ecr.md                          ← Amazon Elastic Container Registry (Amazon ECR)
+│   │   ├── day-39-amazon-eks.md                       ← Amazon Elastic Kubernetes Service (Amazon EKS)
+│   │   ├── day-40-amazon-athena.md                    ← Amazon Athena Serverless Query Service
+│   │   ├── day-41-aws-amplify.md                      ← AWS Amplify Frontend Web Application Deployment
+│   │   ├── day-42-amazon-sns.md                       ← Amazon Simple Notification Service (SNS)
+│   │   ├── day-43-amazon-sqs.md                       ← Amazon Simple Queue Service (SQS)
+│   │   ├── day-44-amazon-ses.md                       ← Amazon Simple Email Service (SES)
+│   │   ├── day-45-s3-sns-event-notification.md        ← Automated S3-to-SNS Event Notification
+│   │   ├── day-46-aws-prometheus.md                   ← Amazon Managed Service for Prometheus
+│   │   ├── day-47-grafana-monitoring.md               ← Grafana Monitoring on AWS EC2
+│   │   ├── day-48-aws-ecs.md                          ← Amazon ECS with AWS Fargate
+│   │   ├── day-49-aws-cloudtrail.md                   ← AWS CloudTrail Monitoring and Governance
+│   │   ├── day-50-aws-s3-glacier.md                   ← Amazon S3 Glacier & Lifecycle Management
+│   │   ├── day-51-aws-rds-mysql.md                    ← Amazon RDS MySQL Administration
+│   │   ├── day-52-aws-rds-postgresql.md               ← Amazon RDS PostgreSQL Administration
+│   │   ├── day-53-amazon-aurora.md                    ← Amazon Aurora MySQL-Compatible Database
+│   │   ├── day-54-amazon-neptune.md                   ← Amazon Neptune Graph Database
+│   │   ├── day-55-aws-rds-mariadb.md                  ← Amazon RDS MariaDB Administration
+│   │   ├── day-56-aws-rds-sql-server.md               ← Amazon RDS Microsoft SQL Server Administration
+│   │   ├── day-57-aws-dynamodb.md                     ← Amazon DynamoDB Administration
+│   │   └── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
+│   ├── gws/                                       ← Google Workspace (starting Day 59)
+│   │   └── README.md                                  ← Placeholder — sessions logged as they happen
+│   ├── m365/                                      ← Microsoft 365 (upcoming)
+│   │   └── README.md                                  ← Placeholder — sessions logged as they happen
+│   └── assets/                                    ← Screenshots from lab sessions
 └── projects/
     ├── ssh-security-checker/            ← SSH security auditing project
     ├── wordpress-lab-report/            ← Install and configure wordpress
@@ -361,7 +367,7 @@ https://github.com/eshansahad/securetrack
 
 # Learning Roadmap
 
-A structured overview of completed and pending topics across Linux, Cloud (Azure), DevSecOps, and related infrastructure skills.
+A structured overview of completed and pending topics across Linux, multi-cloud platforms (Azure, AWS), enterprise productivity suites (Google Workspace, Microsoft 365), DevSecOps, and related infrastructure skills.
 
 ---
 
@@ -425,7 +431,7 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Push images to Azure Container Registry
 - [x] Containerized application deployment
 - [x] Kubernetes fundamentals
-- [ ] Kubernetes (AKS) — advanced
+- [x] Kubernetes (AKS) — advanced
 
 ---
 
@@ -593,6 +599,36 @@ A structured overview of completed and pending topics across Linux, Cloud (Azure
 - [x] Dynamic DNS configuration (No-IP)
 - [x] Swap provisioning for low-RAM build environments
 - [x] Full-stack MERN production deployment
+
+---
+
+## Google Workspace (GWS)
+
+- [ ] Google Admin Console — organizational units, users, groups
+- [ ] Identity & access — 2-Step Verification, SSO, provisioning
+- [ ] Gmail administration — routing, DKIM/SPF/DMARC, security settings
+- [ ] Google Drive & Shared Drives — sharing policies, DLP
+- [ ] Google Calendar administration & resource management
+- [ ] Google Meet administration & policies
+- [ ] Endpoint management (mobile & desktop)
+- [ ] Reporting & audit logs
+- [ ] Google Vault — retention & eDiscovery
+- [ ] Apps Script automation basics
+
+---
+
+## Microsoft 365 (M365)
+
+- [ ] Microsoft 365 Admin Center — tenant setup, licensing
+- [ ] Microsoft Entra ID user & group management in M365 context
+- [ ] Exchange Online administration — mail flow, transport rules
+- [ ] SharePoint Online & OneDrive administration
+- [ ] Microsoft Teams administration & policies
+- [ ] Conditional Access & Multi-Factor Authentication (MFA)
+- [ ] Microsoft Purview — compliance & data governance
+- [ ] Microsoft Defender for Office 365
+- [ ] Intune — mobile device & app management
+- [ ] Power Automate basics
 
 ---
 
