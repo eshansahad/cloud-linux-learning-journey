@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, multi-cloud platforms, enterprise productivity suites, DevSecOps, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-59-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-60-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20GWS%20%7C%20M365%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -79,6 +79,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 57 | Jul 09, 2026 | Amazon DynamoDB Administration                     | [View →](./cloud/aws/day-57-aws-dynamodb.md)                 |
 | Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/aws/day-58-amazon-workspaces.md)            |
 | Day 59 | Aug 12, 2026 | Google Workspace Admin Fundamentals — OUs, Users, Groups, Resources & Buildings | [View →](./cloud/gws/day-59-gws-admin-fundamentals.md) |
+| Day 60 | Aug 13, 2026 | Internship Task 6 — WaslaSoft POS Deployment (SQL Server, Windows, .NET WinForms) | [View Project →](./projects/waslasoft-pos-deployment/) |
 
 > More sessions will be added as I progress.
 
@@ -93,6 +94,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Jun 2026 | Secure DevSecOps Pipeline v2.0 | Production-style DevSecOps CI/CD pipeline featuring Docker, GitHub Actions, Ruff, Pytest, Bandit, pip-audit, Gitleaks, Trivy, GitHub Container Registry (GHCR), and automatic deployment to Azure Container Apps. | [GitHub →](https://github.com/eshansahad/secure-devsecops-pipeline) |
 | Jul 2026 | Terraform EC2 Lab | Infrastructure as Code (IaC) project demonstrating automated AWS EC2 provisioning using Terraform, including IAM authentication, Security Groups, SSH access, troubleshooting, and infrastructure lifecycle management. | [GitHub →](https://github.com/eshansahad/terraform-ec2-lab) |
 | Jul 2026 | SecureTrack — Cloud Deployment (Internship Task 3) | Full-stack MERN app (MongoDB, Express, React, Node.js) hosted end-to-end on AWS EC2 (RHEL 10): Nginx reverse proxy, self-hosted MongoDB with auth hardening, PM2 process management, SELinux troubleshooting, and a free SSL certificate via Certbot/Let's Encrypt on a No-IP dynamic domain. | [GitHub →](https://github.com/eshansahad/securetrack) |
+| Aug 2026 | WaslaSoft POS — Windows/SQL Server Deployment (Internship Task 6) | Deployed a commercial .NET WinForms POS system on Windows: SQL Server install/version troubleshooting (2014 → 2022 pivot after a Windows 11 24H2 prerequisite removal), SSMS database restore, Mixed Mode auth, and client configuration. Vendor code/data intentionally excluded — process and troubleshooting documented only. | [View →](./projects/waslasoft-pos-deployment/) |
 
 ## Repo Structure
 
@@ -170,7 +172,8 @@ cloud-linux-learning-journey/
     ├── wordpress-lab-report/            ← Install and configure wordpress
     ├── secure-devsecops-pipeline/       ← DevSecOps project overview (links to external repository below)
     ├── terraform-ec2-lab/               ← Terraform EC2 Lab overview & external repository link
-    └── securetrack/                     ← SecureTrack deployment overview & external repository link
+    ├── securetrack/                     ← SecureTrack deployment overview & external repository link
+    └── waslasoft-pos-deployment/        ← WaslaSoft POS deployment case study (internship task 6, sanitized)
 ```
 
 **External Repositories**
@@ -363,6 +366,47 @@ https://github.com/eshansahad/securetrack
 | Domain | No-IP free dynamic DNS |
 | SSL | Let's Encrypt via Certbot, auto-renewal enabled |
 | Version Control | Git & GitHub |
+
+---
+
+### WaslaSoft POS — Windows/SQL Server Deployment
+
+A commercial .NET WinForms POS system (Restaurant & Retail editions) deployed on a clean Windows machine as internship deployment task 6 — SQL Server installation and version troubleshooting, database restore, client configuration, and a documented pivot when the originally-specified SQL Server version turned out to be incompatible with the current Windows build. Vendor installer, source code, database backups, and license/API credentials are intentionally excluded from this write-up; see the note at the top of the linked page.
+
+**Documentation**
+
+[View case study →](./projects/waslasoft-pos-deployment/)
+
+**Highlights**
+
+* SQL Server 2014 setup blocked by a fully-removed Windows PowerShell 2.0 dependency on Windows 11 24H2+
+* Pivoted to SQL Server 2022 Express + SSMS rather than force an unsupported engine version
+* Database restore via SSMS's Restore Files and Filegroups workflow
+* Mixed Mode (SQL + Windows) authentication configuration
+* Restaurant edition blocked by vendor license expiry after a successful DB connection — pivoted to Retail edition to keep validating the deployment path
+* POS client configuration: printer roles, menu/table layout, user roles, catalog import
+
+**Skills Practiced**
+
+* Microsoft SQL Server Administration
+* SQL Server Management Studio (SSMS)
+* Windows Prerequisite & Compatibility Troubleshooting
+* .NET WinForms Client Configuration
+* Database Restore & Recovery
+* POS Application Configuration
+* Root-Cause Troubleshooting & Deployment Pivoting
+
+### WaslaSoft Project Environment
+
+| Component | Details |
+|-----------|---------|
+| Project | WaslaSoft POS — Restaurant & Retail Deployment |
+| Application Type | .NET WinForms |
+| Database Engine | SQL Server 2022 Express (pivoted from SQL Server 2014) |
+| DB Tooling | SQL Server Management Studio (SSMS) |
+| Authentication Mode | Mixed Mode (SQL + Windows) |
+| Operating System | Windows 11, 24H2 |
+| Version Control | Git & GitHub (documentation only) |
 
 ---
 
@@ -600,6 +644,15 @@ A structured overview of completed and pending topics across Linux, multi-cloud 
 - [x] Dynamic DNS configuration (No-IP)
 - [x] Swap provisioning for low-RAM build environments
 - [x] Full-stack MERN production deployment
+
+### Windows Application & Database Deployment (WaslaSoft)
+
+- [x] Microsoft SQL Server installation & administration (2014 and 2022 Express)
+- [x] SQL Server version/prerequisite troubleshooting on modern Windows builds
+- [x] SQL Server Management Studio (SSMS) — database restore, filegroups
+- [x] Mixed Mode authentication configuration
+- [x] .NET WinForms client-to-database configuration
+- [x] Commercial POS application configuration & deployment documentation
 
 ---
 
