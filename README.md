@@ -80,6 +80,8 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 58 | Jul 22, 2026 | Amazon WorkSpaces Virtual Desktop                  | [View →](./cloud/aws/day-58-amazon-workspaces.md)            |
 | Day 59 | Aug 12, 2026 | Google Workspace Admin Fundamentals — OUs, Users, Groups, Resources & Buildings | [View →](./cloud/gws/day-59-gws-admin-fundamentals.md) |
 | Day 60 | Aug 13, 2026 | Internship Task 6 — WaslaSoft POS Deployment (SQL Server, Windows, .NET WinForms) | [View Project →](./projects/waslasoft-pos-deployment/) |
+| Day 61 | Aug 18, 2026 | Google Workspace Device & Application Management — MDM, App Controls & Audit Logs | [View →](./cloud/gws/day-61-gws-device-application-management.md) |
+
 
 > More sessions will be added as I progress.
 
@@ -164,6 +166,7 @@ cloud-linux-learning-journey/
 │   │   └── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
 │   ├── gws/                                       ← Google Workspace (starting Day 59)
 │   │   └── day-59-gws-admin-fundamentals.md           ← OUs, Users, Groups, Resources & Buildings admin lab
+│   │   ├── day-61-gws-device-application-management.md ← Device management, MDM policies, app controls & audit logs
 │   ├── m365/                                      ← Microsoft 365 (upcoming)
 │   │   └── README.md                                  ← Placeholder — sessions logged as they happen
 │   └── assets/                                    ← Screenshots from lab sessions
