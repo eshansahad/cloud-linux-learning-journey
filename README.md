@@ -2,7 +2,7 @@
 
 > **Learning in public** — documenting my step-by-step journey through Linux, multi-cloud platforms, enterprise productivity suites, DevSecOps, and more hands-on practice.
 
-![Days Logged](https://img.shields.io/badge/days%20logged-60-2ea44f?style=flat-square)
+![Days Logged](https://img.shields.io/badge/days%20logged-62-2ea44f?style=flat-square)
 ![Focus](https://img.shields.io/badge/focus-Linux%20%7C%20Azure%20%7C%20AWS%20%7C%20GWS%20%7C%20M365%20%7C%20DevSecOps-blue?style=flat-square)
 ![IaC](https://img.shields.io/badge/IaC-Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
@@ -81,7 +81,7 @@ This repository documents my hands-on learning journey through Linux administrat
 | Day 59 | Aug 12, 2026 | Google Workspace Admin Fundamentals — OUs, Users, Groups, Resources & Buildings | [View →](./cloud/gws/day-59-gws-admin-fundamentals.md) |
 | Day 60 | Aug 13, 2026 | Internship Task 6 — WaslaSoft POS Deployment (SQL Server, Windows, .NET WinForms) | [View Project →](./projects/waslasoft-pos-deployment/) |
 | Day 61 | Aug 18, 2026 | Google Workspace Device & Application Management — MDM, App Controls & Audit Logs | [View →](./cloud/gws/day-61-gws-device-application-management.md) |
-
+| Day 62 | Aug 18, 2026 | Google Workspace Studio Email Automation — AI Summarization, Sheets Logging & Email Follow-Up | [View →](./cloud/gws/day-62-gws-studio-email-automation.md) |
 
 > More sessions will be added as I progress.
 
@@ -165,8 +165,9 @@ cloud-linux-learning-journey/
 │   │   ├── day-57-aws-dynamodb.md                     ← Amazon DynamoDB Administration
 │   │   └── day-58-amazon-workspaces.md                ← Amazon WorkSpaces Virtual Desktop
 │   ├── gws/                                       ← Google Workspace (starting Day 59)
-│   │   └── day-59-gws-admin-fundamentals.md           ← OUs, Users, Groups, Resources & Buildings admin lab
+│   │   ├── day-59-gws-admin-fundamentals.md           ← OUs, Users, Groups, Resources & Buildings admin lab
 │   │   ├── day-61-gws-device-application-management.md ← Device management, MDM policies, app controls & audit logs
+│   │   └── day-62-gws-studio-email-automation.md      ← Gmail automation, AI summarization, Sheets logging & email follow-up
 │   ├── m365/                                      ← Microsoft 365 (upcoming)
 │   │   └── README.md                                  ← Placeholder — sessions logged as they happen
 │   └── assets/                                    ← Screenshots from lab sessions
@@ -666,13 +667,20 @@ A structured overview of completed and pending topics across Linux, multi-cloud 
 - [x] Bulk user provisioning via CSV upload
 - [x] Google Groups — access levels, restricted mailing lists
 - [x] Buildings & resources — bookable equipment and meeting rooms
+- [x] Endpoint management — device registration, MDM policies & device security
+- [x] Google Workspace application management — core app access and OU-scoped settings
+- [x] Web & mobile application controls — allowed, blocked & OU-scoped access
+- [x] Third-party application access — API Controls and OAuth app review
+- [x] Reporting & audit logs — device and application activity
+- [x] Workspace Studio — Gmail event triggers and workflow automation
+- [x] AI-assisted email summarization — Gemini/Workspace AI workflow step
+- [x] Google Sheets automation — structured request logging
+- [x] Automated email follow-up — confirmation/reply workflow
 - [ ] Identity & access — 2-Step Verification, SSO
 - [ ] Gmail administration — routing, DKIM/SPF/DMARC, security settings
 - [ ] Google Drive & Shared Drives — sharing policies, DLP
 - [ ] Google Calendar administration (beyond resource booking)
 - [ ] Google Meet administration & policies
-- [ ] Endpoint management (mobile & desktop)
-- [ ] Reporting & audit logs
 - [ ] Google Vault — retention & eDiscovery
 - [ ] Apps Script automation basics
 
